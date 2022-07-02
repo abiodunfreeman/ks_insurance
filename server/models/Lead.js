@@ -20,6 +20,10 @@ const LeadSchema = mongoose.Schema({
     type: String,
     required: [true, 'please enter your zipcode'],
   },
+  contacted: {
+    type: Boolean,
+    default: false,
+  },
   message: String,
   insurance_intrest: [String],
 });
