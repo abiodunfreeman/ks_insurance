@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: PlayfairDisplay-Regular
+font link: https://fonts.google.com/specimen/Playfair+Display
+font author: Claus Eggers Sørensen
+font author site: https://forthehearts.net/
+
+
+icon designer: Theysaurus
+icon designer link: /Theysaurus
+        
+{"bg":"transparent","icon-gradient-0":"#0076DD","icon-gradient-1":"#00CDE9","font":"#000000","slogan":"#141414"}
+      

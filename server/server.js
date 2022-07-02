@@ -19,8 +19,8 @@ app.use(express.json());
 app.get('/', (req, res, next) => {
   res.status(200).json({ fuck: 'you' });
 });
-const quoteRoute = require('./routes/quote');
-app.use('/quote', quoteRoute);
+const leadRoute = require('./routes/lead');
+app.use('/lead', leadRoute);
 // starts server
 const startServer = async () => {
   const PORT = process.env.PORT || 5000;
