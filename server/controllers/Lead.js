@@ -47,3 +47,15 @@ exports.getAllLeads = async (req, res, next) => {
     res.status(400).json({ success: false, err: err.message });
   }
 };
+// @desc    deletes one lead based on req.params.id
+// @route   DELETE /lead/:id
+// @access  Public *We Need to make it private*
+exports.deleteLead = async (req, res, next) => {
+  try {
+    const deletedLead = await Lead.findByIdAndDelete(req.params.id);
+    res.status(200).json({ success: true, deletedLead });
+  } catch (err) {
+    console.log(`${err}`.red);
+    res.status(400).json({ success: false, err: err.message });
+  }
+};

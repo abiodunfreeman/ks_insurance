@@ -1,6 +1,7 @@
 const express = require('express');
 const colors = require('colors');
 const dotenv = require('dotenv');
+const cors = require('cors');
 const connectDB = require('./config/db');
 
 // inits app
@@ -14,6 +15,9 @@ app.use(express.static(__dirname + '/public'));
 
 // Body Parser
 app.use(express.json());
+
+//Cors
+app.use(cors());
 
 //Routes
 app.get('/', (req, res, next) => {
