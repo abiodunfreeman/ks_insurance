@@ -76,9 +76,7 @@ exports.getOneLead = async (req, res, next) => {
 // @access  Public
 exports.updateLead = async (req, res, next) => {
   try {
-    console.log('UPDATE LEAD ROUTE'.cyan.underline);
     const findLead = await Lead.findById(req.params.id);
-    // console.log(findLead.contacted);
     const lead = await Lead.findByIdAndUpdate(
       req.params.id,
       {

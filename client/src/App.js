@@ -13,6 +13,11 @@ function App() {
     console.log(res);
     fetchLeads();
   };
+  const handleUpdateContacted = async id => {
+    const res = await axios.put(`http://localhost:5000/lead/${id}`);
+    console.log(res);
+    fetchLeads();
+  };
   useEffect(() => {
     // populates leads
 
@@ -26,8 +31,12 @@ function App() {
       {leads.map(lead => (
         <div key={lead._id}>
           <h1>{lead.name}</h1>
+          <h2>{lead.contacted ? 'has been reached out to' : 'not yet'}</h2>
           <button onClick={() => handleDeleteLead(lead._id)}>
             delete lead
+          </button>
+          <button onClick={() => handleUpdateContacted(lead._id)}>
+            change contacted
           </button>
         </div>
       ))}
