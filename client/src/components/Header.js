@@ -1,13 +1,19 @@
 import './styles/css/header.css';
+import logo from './images/logo/profile.png';
 const Header = () => {
   return (
     <header>
-      <ul>
-        <li>
-          <h1 id="header-logo">logo</h1>
-          <h1>Home</h1>
-        </li>
-      </ul>
+      <div>
+        <a className="link link-primary">Services</a>
+        <a className="link link-info">About</a>
+        <a className="link link-info">Contact Us</a>
+      </div>
+
+      <img src={logo} alt="logo" />
+
+      <a href="/quote" className="btn btn-primary">
+        Get a Quote
+      </a>
     </header>
   );
 };

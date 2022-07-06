@@ -1,0 +1,14 @@
+#main-bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  padding: 20px;
+  gap: 20px;
+  h5 {
+    max-width: 700px;
+    line-height: 1.8rem;
+    font-size: 16px;
+  }
+}

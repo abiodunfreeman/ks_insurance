@@ -1,5 +1,27 @@
+/* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
 header {
-  border: 4px solid rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+/* line 8, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+header .link:hover {
+  cursor: pointer;
+}
+
+/* line 11, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+header div {
+  display: flex;
+  gap: 15px;
+}
+
+/* line 15, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+header img {
+  max-width: 400px;
 }
 
 /*# sourceMappingURL=header.css.map */

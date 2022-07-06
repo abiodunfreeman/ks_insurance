@@ -1,0 +1,17 @@
+// Variable overrides first
+$primary: #00cde9;
+$enable-shadows: true;
+$prefix: 'mo-';
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+// Then import Bootstrap
+@import '../../../../node_modules/bootstrap/scss/bootstrap.scss';
+.App {
+  max-width: 100vw;
+}
+.btn-primary {
+  color: white;
+}

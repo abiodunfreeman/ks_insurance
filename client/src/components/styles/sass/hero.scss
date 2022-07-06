@@ -1,0 +1,34 @@
+.hero {
+  max-width: 100vw;
+  border: 2px solid blue;
+  background-image: url('../../images/logo/cleve-bg.jpg');
+  background-size: cover;
+  height: 500px;
+  z-index: 1;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.bgimage {
+  width: 100%;
+  height: 500px;
+  background: url('../../images/logo/cleve-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bgimage h2 {
+  color: white;
+  text-shadow: 2px 2px #333;
+}
+.hero-container {
+  position: relative;
+}

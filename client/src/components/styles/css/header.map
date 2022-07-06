@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "header.css",
+	"sources": [
+		"../sass/header.scss"
+	],
+	"sourcesContent": [
+		"header {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  height: 120px;\r\n  background-color: rgba(0, 0, 0, 0.1);\r\n  padding: 10px;\r\n  .link:hover {\r\n    cursor: pointer;\r\n  }\r\n  div {\r\n    display: flex;\r\n    gap: 15px;\r\n  }\r\n  img {\r\n    max-width: 400px;\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,kBAAkB;EACpC,OAAO,EAAE,IAAI;CAWd;;;AAjBD,AAOE,MAPI,CAOJ,KAAK,AAAA,MAAM,CAAC;EACV,MAAM,EAAE,OAAO;CAChB;;;AATH,AAUE,MAVI,CAUJ,GAAG,CAAC;EACF,OAAO,EAAE,IAAI;EACb,GAAG,EAAE,IAAI;CACV;;;AAbH,AAcE,MAdI,CAcJ,GAAG,CAAC;EACF,SAAS,EAAE,KAAK;CACjB"
+}
