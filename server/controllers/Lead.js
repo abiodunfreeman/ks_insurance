@@ -59,14 +59,34 @@ exports.deleteLead = async (req, res, next) => {
     res.status(400).json({ success: false, err: err.message });
   }
 };
-// @desc    deletes one lead based on req.params.id
-// @route   DELETE /lead/:id
-// @access  Public *We Need to make it private*
+// @desc    GET one lead based on req.params.id
+// @route   GET /lead/:id
+// @access  Public
 exports.getOneLead = async (req, res, next) => {
   try {
     const oneLead = await Lead.findById(req.params.id);
-
     res.status(200).json(oneLead);
+  } catch (err) {
+    console.log(`${err}`.red);
+    res.status(400).json({ success: false, err: err.message });
+  }
+};
+// @desc    Update one lead based on req.params.id
+// @route   PUT /lead/:id
+// @access  Public
+exports.updateLead = async (req, res, next) => {
+  try {
+    console.log('UPDATE LEAD ROUTE'.cyan.underline);
+    const findLead = await Lead.findById(req.params.id);
+    // console.log(findLead.contacted);
+    const lead = await Lead.findByIdAndUpdate(
+      req.params.id,
+      {
+        contacted: !findLead.contacted,
+      },
+      { new: true }
+    );
+    res.status(200).json(lead);
   } catch (err) {
     console.log(`${err}`.red);
     res.status(400).json({ success: false, err: err.message });

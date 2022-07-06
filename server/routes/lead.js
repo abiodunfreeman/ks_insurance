@@ -5,8 +5,9 @@ const {
   getAllLeads,
   deleteLead,
   getOneLead,
+  updateLead,
 } = require('../controllers/Lead');
 router.route('/new').post(postNewLead);
 router.route('/all').get(getAllLeads);
-router.route('/:id').delete(deleteLead).get(getOneLead);
+router.route('/:id').delete(deleteLead).get(getOneLead).put(updateLead);
 module.exports = router;
