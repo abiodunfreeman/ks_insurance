@@ -1,6 +1,6 @@
 import Hero from './Hero';
 import Bio from './Bio';
-
+import './styles/css/home.css';
 import ContactForm from './ContactForm';
 const Home = props => {
   const { handleContactUsFormSubmit } = props;

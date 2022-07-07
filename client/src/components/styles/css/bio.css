@@ -4,12 +4,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 5px solid black;
   padding: 20px;
   gap: 20px;
 }
 
-/* line 9, ../GitHub/ks_insurance/client/src/components/styles/sass/bio.scss */
+/* line 8, ../GitHub/ks_insurance/client/src/components/styles/sass/bio.scss */
 #main-bio h5 {
   max-width: 700px;
   line-height: 1.8rem;

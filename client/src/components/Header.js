@@ -26,6 +26,9 @@ const Header = () => {
   return (
     <header>
       <div id="header-nav">
+        <a href="#contact-us" className="link link-primary">
+          (440) 354-4664
+        </a>
         <a href="/services" className="link link-primary">
           Services
         </a>
@@ -37,7 +40,9 @@ const Header = () => {
         </a>
       </div>
 
-      <img src={logo} alt="logo" id="header-logo" />
+      <a href="/">
+        <img src={logo} alt="logo" id="header-logo" />
+      </a>
       <div onClick={() => handleMenuClick()} className="menu-btn">
         <div className="menu-btn__burger"></div>
       </div>
@@ -46,6 +51,9 @@ const Header = () => {
       </a>
       <nav id="mobile-header-nav">
         <div className="link-list">
+          <a href="#contact-us" className="link link-primary">
+            (440) 354-4664
+          </a>
           <a href="/contact-us" className="link link-primary">
             Services
           </a>

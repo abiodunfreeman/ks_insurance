@@ -1,8 +1,10 @@
+@charset "UTF-8";
 /* line 5, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Andalé Mono';
 }
 
 /*!
@@ -13041,17 +13043,17 @@ fieldset:disabled .btn {
   }
 }
 
-/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+/* line 13, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 .App {
   max-width: 100vw;
 }
 
-/* line 16, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+/* line 17, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 .btn-primary {
   color: white;
 }
 
-/* line 19, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+/* line 20, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 .noScroll {
   overflow: hidden;
 }
