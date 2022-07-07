@@ -22,6 +22,9 @@ header {
   #header-logo {
     max-width: 400px;
   }
+  #mobile-header-nav {
+    display: none;
+  }
 }
 @media (max-width: 1050px) {
   html,

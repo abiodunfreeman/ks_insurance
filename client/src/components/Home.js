@@ -1,12 +1,17 @@
 import Hero from './Hero';
-import Main from './Main';
+import Bio from './Bio';
+
 import ContactForm from './ContactForm';
 const Home = props => {
   const { handleContactUsFormSubmit } = props;
   return (
     <div id="home-container">
       <Hero />
-      <Main />
+      <Bio />
+      <div id="home-quote">
+        <h1>“Price is what you pay. Value is what you get.”</h1>
+        <h2>- Warren Buffet</h2>
+      </div>
       <ContactForm handleContactUsFormSubmit={handleContactUsFormSubmit} />
     </div>
   );

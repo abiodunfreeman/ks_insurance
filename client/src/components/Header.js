@@ -26,9 +26,15 @@ const Header = () => {
   return (
     <header>
       <div id="header-nav">
-        <a className="link link-primary">Services</a>
-        <a className="link link-info">About</a>
-        <a className="link link-info">Contact Us</a>
+        <a href="/services" className="link link-primary">
+          Services
+        </a>
+        <a href="/about" className="link link-info">
+          About
+        </a>
+        <a href="/contact-us" className="link link-info">
+          Contact Us
+        </a>
       </div>
 
       <img src={logo} alt="logo" id="header-logo" />
@@ -40,9 +46,15 @@ const Header = () => {
       </a>
       <nav id="mobile-header-nav">
         <div className="link-list">
-          <a className="link link-primary">Services</a>
-          <a className="link link-info">About</a>
-          <a className="link link-info">Contact Us</a>
+          <a href="/contact-us" className="link link-primary">
+            Services
+          </a>
+          <a href="/contact-us" className="link link-info">
+            About
+          </a>
+          <a href="/contact-us" className="link link-info">
+            Contact Us
+          </a>
         </div>
 
         <a className="btn btn-primary" href="/quote">

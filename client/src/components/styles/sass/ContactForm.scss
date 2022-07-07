@@ -1,5 +1,5 @@
 #ContactForm {
-  border: 3px solid blue;
+  // border: 3px solid blue;
   display: grid;
   grid-template-columns: 1fr 500px 1fr;
 }
@@ -8,5 +8,5 @@
     text-align: center;
   }
   grid-column: 2/3;
-  border: 3px solid red;
+  // border: 3px solid red;
 }

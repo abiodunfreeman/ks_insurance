@@ -1,7 +1,5 @@
-import react from 'react';
 import './styles/css/bio.css';
 const Bio = () => {
-  const msg = `  `;
   return (
     <div id="main-bio">
       <h1>Insurance Ohio</h1>

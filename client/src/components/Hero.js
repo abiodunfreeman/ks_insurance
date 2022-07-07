@@ -1,6 +1,5 @@
-import react from 'react';
 import './styles/css/hero.css';
-import logo from './images/logo/cleve-bg.jpg';
+
 const Hero = props => {
   return (
     <div className="hero-container">

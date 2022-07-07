@@ -13020,17 +13020,22 @@ header #header-logo {
   max-width: 400px;
 }
 
+/* line 25, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+header #mobile-header-nav {
+  display: none;
+}
+
 @media (max-width: 1050px) {
-  /* line 27, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 30, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   html,
   body {
     overflow-x: hidden;
   }
-  /* line 32, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 35, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   header #header-nav {
     display: none;
   }
-  /* line 35, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 38, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   header .menu-btn {
     display: flex;
     position: relative;
@@ -13041,7 +13046,7 @@ header #header-logo {
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }
-  /* line 45, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 48, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   header .menu-btn .menu-btn__burger {
     width: 20px;
     height: 1px;
@@ -13050,7 +13055,7 @@ header #header-logo {
     box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
     transition: all 0.5s ease-in-out;
   }
-  /* line 53, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 56, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   header .menu-btn .menu-btn__burger::before,
   header .menu-btn .menu-btn__burger::after {
     content: '';
@@ -13062,30 +13067,30 @@ header #header-logo {
     box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
     transition: all 0.5s ease-in-out;
   }
-  /* line 64, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 67, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   header .menu-btn .menu-btn__burger::before {
     transform: translateY(-16px);
   }
-  /* line 67, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 70, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   header .menu-btn .menu-btn__burger::after {
     transform: translateY(16px);
   }
-  /* line 71, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 74, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   header #header-btn {
     display: none;
   }
-  /* line 74, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 77, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   header #header-logo {
     max-width: 260px;
   }
-  /* line 78, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 81, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   #mobile-header-nav {
     z-index: 10;
     border: 4px solid black;
     display: none;
     background-color: rgba(0, 0, 0, 0.7);
   }
-  /* line 84, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 87, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   #mobile-header-nav.active-nav {
     display: grid;
     grid-template-rows: 1fr 50px;
@@ -13097,7 +13102,7 @@ header #header-logo {
     align-items: center;
     justify-content: center;
   }
-  /* line 96, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 99, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   #mobile-header-nav.active-nav .link-list {
     display: flex;
     flex-direction: column;
@@ -13106,11 +13111,11 @@ header #header-logo {
     justify-self: center;
     text-align: center;
   }
-  /* line 104, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 107, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   #mobile-header-nav.active-nav .link-list a {
     text-decoration: none;
   }
-  /* line 108, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+  /* line 111, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   #mobile-header-nav.active-nav .btn {
     border-radius: 0;
     width: 150px;
@@ -13119,24 +13124,24 @@ header #header-logo {
   }
 }
 
-/* line 117, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+/* line 120, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
 .open {
   border-color: red;
 }
 
-/* line 120, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+/* line 123, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
 .menu-btn.open .menu-btn__burger {
   transform: translateX(-50px);
   background: transparent;
   box-shadow: none;
 }
 
-/* line 125, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+/* line 128, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
 .menu-btn.open .menu-btn__burger::before {
   transform: rotate(45deg) translate(35px, -35px);
 }
 
-/* line 128, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+/* line 131, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
 .menu-btn.open .menu-btn__burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
