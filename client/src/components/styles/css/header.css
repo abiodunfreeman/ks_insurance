@@ -13031,17 +13031,17 @@ header #header-logo {
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }
   /* line 41, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   header .menu-btn .menu-btn__burger {
-    width: 50px;
-    height: 6px;
+    width: 20px;
+    height: 1px;
     background: black;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
     transition: all 0.5s ease-in-out;
   }
@@ -13050,10 +13050,10 @@ header #header-logo {
   header .menu-btn .menu-btn__burger::after {
     content: '';
     position: absolute;
-    width: 50px;
-    height: 6px;
+    width: 20px;
+    height: 1px;
     background: black;
-    border-radius: 5px;
+    border-radius: 3px;
     box-shadow: 0 2px 5px rgba(255, 101, 47, 0.2);
     transition: all 0.5s ease-in-out;
   }
@@ -13106,30 +13106,31 @@ header #header-logo {
   }
   /* line 101, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
   #mobile-header-nav.active-nav .btn {
+    border-radius: 0;
     width: 150px;
-    padding: 20px 10px;
+    padding: 10px 5px;
     justify-self: flex-end;
   }
 }
 
-/* line 109, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+/* line 110, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
 .open {
   border-color: red;
 }
 
-/* line 112, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+/* line 113, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
 .menu-btn.open .menu-btn__burger {
   transform: translateX(-50px);
   background: transparent;
   box-shadow: none;
 }
 
-/* line 117, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+/* line 118, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
 .menu-btn.open .menu-btn__burger::before {
   transform: rotate(45deg) translate(35px, -35px);
 }
 
-/* line 120, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
+/* line 121, ../GitHub/ks_insurance/client/src/components/styles/sass/header.scss */
 .menu-btn.open .menu-btn__burger::after {
   transform: rotate(-45deg) translate(35px, 35px);
 }
