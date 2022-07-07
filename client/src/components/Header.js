@@ -5,15 +5,21 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleMenuClick = () => {
     console.log('menu click');
+    const html = document.querySelector('html');
+    const body = document.querySelector('body');
     const menuBtn = document.querySelector('.menu-btn');
     const headerMobileNav = document.querySelector('#mobile-header-nav');
     if (!menuOpen) {
       menuBtn.classList.add('open');
       headerMobileNav.classList.add('active-nav');
+      html.classList.add('noScroll');
+      body.classList.add('noScroll');
       setMenuOpen(prevState => !prevState);
     } else if (menuOpen) {
       menuBtn.classList.remove('open');
       headerMobileNav.classList.remove('active-nav');
+      html.classList.remove('noScroll');
+      body.classList.remove('noScroll');
       setMenuOpen(prevState => !prevState);
     }
   };

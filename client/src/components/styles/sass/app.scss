@@ -12,6 +12,10 @@ $prefix: 'mo-';
 .App {
   max-width: 100vw;
 }
+
 .btn-primary {
   color: white;
+}
+.noScroll {
+  overflow: hidden;
 }

@@ -69,8 +69,8 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Hero />
-      <Main /> */}
+      <Hero />
+      <Main />
       {/* <h2>KS Insurance</h2> */}
       {/* {leads.map(lead => (
         <div key={lead._id}>
