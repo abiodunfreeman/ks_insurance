@@ -1,0 +1,36 @@
+/* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+#quote-homepage {
+  height: 100vh;
+  border: 3px solid purple;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* line 5, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+#quote-homepage #quote-form-container {
+  height: 90vh;
+  border: 3px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+#quote-homepage form {
+  padding: 40px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+  gap: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+/* line 20, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+#quote-homepage form input,
+#quote-homepage form textarea {
+  background-color: #b4b3b3;
+  color: black;
+  border-radius: 4px;
+}
+
+/*# sourceMappingURL=quote.css.map */

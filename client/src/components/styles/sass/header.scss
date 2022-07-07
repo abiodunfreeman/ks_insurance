@@ -9,6 +9,7 @@ header {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 2vh 4vw 2vh 4vw;
   border-bottom: 3px solid $primary;
+  z-index: 10;
   .menu-btn {
     display: none;
   }

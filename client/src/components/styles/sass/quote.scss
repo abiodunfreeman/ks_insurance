@@ -1,0 +1,29 @@
+#quote-homepage {
+  height: 100vh;
+  border: 3px solid purple;
+  background-color: rgba(0, 0, 0, 0.5);
+  #quote-form-container {
+    height: 90vh;
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    padding: 40px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+    gap: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    input,
+    textarea {
+      background-color: rgb(180, 179, 179);
+      color: black;
+      border-radius: 4px;
+    }
+  }
+}
+@media (max-width: 1050px) {
+}

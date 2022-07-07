@@ -1,5 +1,6 @@
 import './App.css';
 import './components/styles/css/app.css';
+import { Link } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './components/Home';
 import { useState, useEffect } from 'react';
@@ -95,8 +96,8 @@ function App() {
     <div className="App">
       <Header />
       <Home handleContactUsFormSubmit={handleContactUsFormSubmit} />
-      {/* <h2>KS Insurance</h2> */}
-      {leads.map(lead => (
+
+      {/* {leads.map(lead => (
         <div key={lead._id}>
           <h1>{lead.name}</h1>
           <h2>{lead.contacted ? 'has been reached out to' : 'not yet'}</h2>
@@ -113,7 +114,7 @@ function App() {
             change contacted
           </h3>
         </div>
-      ))}
+      ))} */}
     </div>
   );
 }

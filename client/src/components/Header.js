@@ -1,6 +1,7 @@
 import './styles/css/header.css';
 import logo from './images/logo/profile.png';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleMenuClick = () => {
@@ -32,9 +33,9 @@ const Header = () => {
         <a href="/services" className="link link-primary">
           Services
         </a>
-        <a href="/about" className="link link-info">
+        <Link to="/about" className="link link-info">
           About
-        </a>
+        </Link>
         <a href="/contact-us" className="link link-info">
           Contact Us
         </a>
@@ -65,9 +66,9 @@ const Header = () => {
           </a>
         </div>
 
-        <a className="btn btn-primary" href="/quote">
+        <Link className="btn btn-primary" to="/quote">
           Get a Quote
-        </a>
+        </Link>
       </nav>
     </header>
   );

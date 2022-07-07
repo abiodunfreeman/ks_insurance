@@ -3,6 +3,22 @@ const colors = require('colors');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const connectDB = require('./config/db');
+// SERVER SIDE TODO
+/*
+Require Login to view leads
+  - create user model
+    username/email  -string
+    password        -string
+    admin           -boolean
+  - create user routes 
+    user/login
+    user/new
+    user/:id -- not critical
+  - login with passport.js
+  -bcrypt password
+Assign leads to users
+
+*/
 
 // inits app
 const app = express();
