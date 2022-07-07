@@ -1,0 +1,12 @@
+#ContactForm {
+  border: 3px solid blue;
+  display: grid;
+  grid-template-columns: 1fr 40vw 1fr;
+}
+#ContactForm-container {
+  h1 {
+    text-align: center;
+  }
+  grid-column: 2/3;
+  border: 3px solid red;
+}

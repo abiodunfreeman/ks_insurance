@@ -3,6 +3,7 @@ import './components/styles/css/app.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Main from './components/Main';
+import ContactForm from './components/ContactForm';
 import { useState, useEffect } from 'react';
 import axios from 'axios?';
 function App() {
@@ -71,6 +72,7 @@ function App() {
       <Header />
       <Hero />
       <Main />
+      <ContactForm />
       {/* <h2>KS Insurance</h2> */}
       {/* {leads.map(lead => (
         <div key={lead._id}>

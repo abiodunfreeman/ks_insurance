@@ -1,0 +1,19 @@
+/* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
+#ContactForm {
+  border: 3px solid blue;
+  display: grid;
+  grid-template-columns: 1fr 40vw 1fr;
+}
+
+/* line 6, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
+#ContactForm-container {
+  grid-column: 2/3;
+  border: 3px solid red;
+}
+
+/* line 7, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
+#ContactForm-container h1 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=ContactForm.css.map */
