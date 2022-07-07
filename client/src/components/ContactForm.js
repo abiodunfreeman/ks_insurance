@@ -1,5 +1,6 @@
 import './styles/css/ContactForm.css';
-const ContactForm = () => {
+const ContactForm = props => {
+  const { handleContactUsFormSubmit } = props;
   return (
     <div id="ContactForm">
       <div id="ContactForm-container">
@@ -14,12 +15,10 @@ const ContactForm = () => {
           looking for new and exceptional talent to lead the brokerage into the
           future.
         </p>
-        <form>
-          <div class="form-group row">
-            <label class="col-4 col-form-label" for="contact-form-name">
-              name
-            </label>
-            <div class="col-8">
+        <form onSubmit={e => handleContactUsFormSubmit(e)}>
+          <div class="form-group ">
+            <label for="contact-form-name">name</label>
+            <div>
               <input
                 id="contact-form-name"
                 name="contact-form-name"
@@ -29,10 +28,8 @@ const ContactForm = () => {
                 required="required"
               />
             </div>
-            <label class="col-4 col-form-label" for="contact-form-email">
-              email
-            </label>
-            <div class="col-8">
+            <label for="contact-form-email">email</label>
+            <div>
               <input
                 id="contact-form-email"
                 name="contact-form-email"
@@ -42,15 +39,13 @@ const ContactForm = () => {
                 required="required"
               />
             </div>
-            <label class="col-4 col-form-label" for="contact-form-msg">
-              How Can We Help?
-            </label>
-            <div class="col-8">
+            <label for="contact-form-msg">How Can We Help?</label>
+            <div>
               <input
                 id="contact-form-msg"
                 name="contact-form-msg"
                 placeholder="Enter msg"
-                type="text"
+                type="textarea"
                 class="form-control"
                 required="required"
               />

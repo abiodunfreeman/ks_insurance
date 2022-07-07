@@ -5,8 +5,8 @@
 		"../sass/ContactForm.scss"
 	],
 	"sourcesContent": [
-		"#ContactForm {\r\n  border: 3px solid blue;\r\n  display: grid;\r\n  grid-template-columns: 1fr 40vw 1fr;\r\n}\r\n#ContactForm-container {\r\n  h1 {\r\n    text-align: center;\r\n  }\r\n  grid-column: 2/3;\r\n  border: 3px solid red;\r\n}\r\n"
+		"#ContactForm {\r\n  border: 3px solid blue;\r\n  display: grid;\r\n  grid-template-columns: 1fr 500px 1fr;\r\n}\r\n#ContactForm-container {\r\n  h1 {\r\n    text-align: center;\r\n  }\r\n  grid-column: 2/3;\r\n  border: 3px solid red;\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,YAAY,CAAC;EACX,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,YAAY;CACpC;;;AACD,AAAA,sBAAsB,CAAC;EAIrB,WAAW,EAAE,GAAG;EAChB,MAAM,EAAE,aAAa;CACtB;;;AAND,AACE,sBADoB,CACpB,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;CACnB"
+	"mappings": ";AAAA,AAAA,YAAY,CAAC;EACX,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,aAAa;CACrC;;;AACD,AAAA,sBAAsB,CAAC;EAIrB,WAAW,EAAE,GAAG;EAChB,MAAM,EAAE,aAAa;CACtB;;;AAND,AACE,sBADoB,CACpB,EAAE,CAAC;EACD,UAAU,EAAE,MAAM;CACnB"
 }

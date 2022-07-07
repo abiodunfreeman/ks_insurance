@@ -25,6 +25,8 @@ app.get('/', (req, res, next) => {
 });
 const leadRoute = require('./routes/lead');
 app.use('/lead', leadRoute);
+const contactUsRoute = require('./routes/contactUs');
+app.use('/contact-us', contactUsRoute);
 // starts server
 const startServer = async () => {
   const PORT = process.env.PORT || 5000;

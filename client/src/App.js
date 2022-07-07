@@ -1,9 +1,7 @@
 import './App.css';
 import './components/styles/css/app.css';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Main from './components/Main';
-import ContactForm from './components/ContactForm';
+import Home from './components/Home';
 import { useState, useEffect } from 'react';
 import axios from 'axios?';
 function App() {
@@ -41,25 +39,38 @@ function App() {
   ];
   const [leads, setLeads] = useState([]);
   const fetchLeads = async () => {
-    // const res = await axios.get('http://localhost:5000/lead/all');
-    // setLeads(res.data);
+    const res = await axios.get('http://localhost:5000/lead/all');
+    setLeads(res.data);
 
-    setLeads(fakeLeadData);
+    // setLeads(fakeLeadData);
   };
   const handleDeleteLead = async id => {
     const res = await axios.delete(`http://localhost:5000/lead/${id}`);
     console.log(res);
     fetchLeads();
   };
+  const handleContactUsFormSubmit = async e => {
+    e.preventDefault();
+    const contactName = document.querySelector('#contact-form-name').value;
+    const contactEmail = document.querySelector('#contact-form-email').value;
+    const contactMsg = document.querySelector('#contact-form-msg').value;
+    const contactObj = {
+      name: contactName,
+      email: contactEmail,
+      msg: contactMsg,
+    };
+    console.log(contactObj);
+    console.log('contact form submit');
+  };
   const handleUpdateContacted = async id => {
-    // const res = await axios.put(`http://localhost:5000/lead/${id}`);
-    // console.log(res);
-    // fetchLeads();
-
-    const lead = fakeLeadData.filter(lead => lead._id === id)[0];
-    const leadIndex = fakeLeadData.indexOf(lead);
-    fakeLeadData[leadIndex].contacted = !lead.contacted;
+    const res = await axios.put(`http://localhost:5000/lead/${id}`);
+    console.log(res);
     fetchLeads();
+
+    // const lead = fakeLeadData.filter(lead => lead._id === id)[0];
+    // const leadIndex = fakeLeadData.indexOf(lead);
+    // fakeLeadData[leadIndex].contacted = !lead.contacted;
+    // fetchLeads();
   };
   useEffect(() => {
     // populates leads
@@ -70,11 +81,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
-      <Main />
-      <ContactForm />
+      <Home handleContactUsFormSubmit={handleContactUsFormSubmit} />
       {/* <h2>KS Insurance</h2> */}
-      {/* {leads.map(lead => (
+      {leads.map(lead => (
         <div key={lead._id}>
           <h1>{lead.name}</h1>
           <h2>{lead.contacted ? 'has been reached out to' : 'not yet'}</h2>
@@ -91,7 +100,7 @@ function App() {
             change contacted
           </h3>
         </div>
-      ))} */}
+      ))}
     </div>
   );
 }
