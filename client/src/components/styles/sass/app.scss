@@ -1,5 +1,11 @@
 // Variable overrides first
-$primary: purple;
+$primary: #e02133;
+$secondary: #0073cf;
+$color1: #eae7dc;
+$color2: #d8c3a5;
+$color3: #8e8d8a;
+$color4: #e98074;
+$color5: #e85a4f;
 $enable-shadows: true;
 $prefix: 'mo-';
 * {
@@ -13,7 +19,9 @@ $prefix: 'mo-';
 .App {
   max-width: 100vw;
 }
-
+body {
+  background-color: #eae7dc;
+}
 .btn-primary {
   color: white;
 }

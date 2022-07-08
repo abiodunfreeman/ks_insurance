@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* line 5, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+/* line 11, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 * {
   margin: 0px;
   padding: 0px;
@@ -37,16 +37,16 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: purple;
-  --bs-secondary: #6c757d;
+  --bs-primary: #e02133;
+  --bs-secondary: #0073cf;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 128, 0, 128;
-  --bs-secondary-rgb: 108, 117, 125;
+  --bs-primary-rgb: 224, 33, 51;
+  --bs-secondary-rgb: 0, 115, 207;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -273,13 +273,13 @@ sup {
 
 /* line 250, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_reboot.scss */
 a {
-  color: purple;
+  color: #e02133;
   text-decoration: underline;
 }
 
 /* line 254, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_reboot.scss */
 a:hover {
-  color: #660066;
+  color: #b31a29;
 }
 
 /* line 266, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_reboot.scss */
@@ -2237,28 +2237,28 @@ progress {
 
 /* line 3, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_table-variants.scss */
 .table-primary {
-  --bs-table-bg: #e6cce6;
-  --bs-table-striped-bg: #dbc2db;
+  --bs-table-bg: #f9d3d6;
+  --bs-table-striped-bg: #edc8cb;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #cfb8cf;
+  --bs-table-active-bg: #e0bec1;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #d5bdd5;
+  --bs-table-hover-bg: #e6c3c6;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #cfb8cf;
+  border-color: #e0bec1;
 }
 
 /* line 3, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_table-variants.scss */
 .table-secondary {
-  --bs-table-bg: #e2e3e5;
-  --bs-table-striped-bg: #d7d8da;
+  --bs-table-bg: #cce3f5;
+  --bs-table-striped-bg: #c2d8e9;
   --bs-table-striped-color: #000;
-  --bs-table-active-bg: #cbccce;
+  --bs-table-active-bg: #b8ccdd;
   --bs-table-active-color: #000;
-  --bs-table-hover-bg: #d1d2d4;
+  --bs-table-hover-bg: #bdd2e3;
   --bs-table-hover-color: #000;
   color: #000;
-  border-color: #cbccce;
+  border-color: #b8ccdd;
 }
 
 /* line 3, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_table-variants.scss */
@@ -2459,9 +2459,9 @@ progress {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color: #c080c0;
+  border-color: #f09099;
   outline: 0;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(224, 33, 51, 0.25);
 }
 
 /* line 50, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-control.scss */
@@ -2670,9 +2670,9 @@ textarea.form-control-lg {
 
 /* line 28, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-select.scss */
 .form-select:focus {
-  border-color: #c080c0;
+  border-color: #f09099;
   outline: 0;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(224, 33, 51, 0.25);
 }
 
 /* line 39, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-select.scss */
@@ -2756,15 +2756,15 @@ textarea.form-control-lg {
 
 /* line 44, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-check.scss */
 .form-check-input:focus {
-  border-color: #c080c0;
+  border-color: #f09099;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(224, 33, 51, 0.25);
 }
 
 /* line 50, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-check.scss */
 .form-check-input:checked {
-  background-color: purple;
-  border-color: purple;
+  background-color: #e02133;
+  border-color: #e02133;
 }
 
 /* line 54, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-check.scss */
@@ -2779,8 +2779,8 @@ textarea.form-control-lg {
 
 /* line 71, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-check.scss */
 .form-check-input[type="checkbox"]:indeterminate {
-  background-color: purple;
-  border-color: purple;
+  background-color: #e02133;
+  border-color: #e02133;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
 }
 
@@ -2820,7 +2820,7 @@ textarea.form-control-lg {
 
 /* line 118, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-check.scss */
 .form-switch .form-check-input:focus {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23c080c0'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23f09099'/%3e%3c/svg%3e");
 }
 
 /* line 122, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-check.scss */
@@ -2865,12 +2865,12 @@ textarea.form-control-lg {
 
 /* line 19, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-range.scss */
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(224, 33, 51, 0.25);
 }
 
 /* line 20, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-range.scss */
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(224, 33, 51, 0.25);
 }
 
 /* line 23, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-range.scss */
@@ -2883,7 +2883,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: purple;
+  background-color: #e02133;
   border: 0;
   border-radius: 1rem;
   box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -2900,7 +2900,7 @@ textarea.form-control-lg {
 
 /* line 38, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-range.scss */
 .form-range::-webkit-slider-thumb:active {
-  background-color: #d9b3d9;
+  background-color: #f6bcc2;
 }
 
 /* line 43, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-range.scss */
@@ -2919,7 +2919,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: purple;
+  background-color: #e02133;
   border: 0;
   border-radius: 1rem;
   box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
@@ -2936,7 +2936,7 @@ textarea.form-control-lg {
 
 /* line 64, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-range.scss */
 .form-range::-moz-range-thumb:active {
-  background-color: #d9b3d9;
+  background-color: #f6bcc2;
 }
 
 /* line 69, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/forms/_form-range.scss */
@@ -3396,7 +3396,7 @@ textarea.form-control-lg {
 /* line 27, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(224, 33, 51, 0.25);
 }
 
 /* line 33, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
@@ -3408,7 +3408,7 @@ textarea.form-control-lg {
 /* line 39, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
 .btn-check:checked + .btn:focus,
 .btn-check:active + .btn:focus, .btn:active:focus, .btn.active:focus {
-  box-shadow: 0 0 0 0.25rem rgba(128, 0, 128, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 0 0 0.25rem rgba(224, 33, 51, 0.25), inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
 /* line 44, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
@@ -3422,24 +3422,24 @@ fieldset:disabled .btn {
 /* line 60, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: #e02133;
+  border-color: #e02133;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 /* line 26, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-primary:hover {
   color: #fff;
-  background-color: #6d006d;
-  border-color: #660066;
+  background-color: #be1c2b;
+  border-color: #b31a29;
 }
 
 /* line 32, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #6d006d;
-  border-color: #660066;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(147, 38, 147, 0.5);
+  background-color: #be1c2b;
+  border-color: #b31a29;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(229, 66, 82, 0.5);
 }
 
 /* line 45, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
@@ -3447,45 +3447,45 @@ fieldset:disabled .btn {
 .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #660066;
-  border-color: #600060;
+  background-color: #b31a29;
+  border-color: #a81926;
 }
 
 /* line 56, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:checked + .btn-primary:focus,
 .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(147, 38, 147, 0.5);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(229, 66, 82, 0.5);
 }
 
 /* line 66, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: #e02133;
+  border-color: #e02133;
 }
 
 /* line 60, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #0073cf;
+  border-color: #0073cf;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
 }
 
 /* line 26, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-secondary:hover {
   color: #fff;
-  background-color: #5c636a;
-  border-color: #565e64;
+  background-color: #0062b0;
+  border-color: #005ca6;
 }
 
 /* line 32, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:focus + .btn-secondary, .btn-secondary:focus {
   color: #fff;
-  background-color: #5c636a;
-  border-color: #565e64;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+  background-color: #0062b0;
+  border-color: #005ca6;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 0.25rem rgba(38, 136, 214, 0.5);
 }
 
 /* line 45, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
@@ -3493,22 +3493,22 @@ fieldset:disabled .btn {
 .btn-check:active + .btn-secondary, .btn-secondary:active, .btn-secondary.active,
 .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #565e64;
-  border-color: #51585e;
+  background-color: #005ca6;
+  border-color: #00569b;
 }
 
 /* line 56, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:checked + .btn-secondary:focus,
 .btn-check:active + .btn-secondary:focus, .btn-secondary:active:focus, .btn-secondary.active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(130, 138, 145, 0.5);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(38, 136, 214, 0.5);
 }
 
 /* line 66, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-secondary:disabled, .btn-secondary.disabled {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #0073cf;
+  border-color: #0073cf;
 }
 
 /* line 60, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
@@ -3789,77 +3789,77 @@ fieldset:disabled .btn {
 
 /* line 66, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
 .btn-outline-primary {
-  color: purple;
-  border-color: purple;
+  color: #e02133;
+  border-color: #e02133;
 }
 
 /* line 88, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: #e02133;
+  border-color: #e02133;
 }
 
 /* line 94, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(128, 0, 128, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(224, 33, 51, 0.5);
 }
 
 /* line 99, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:checked + .btn-outline-primary,
 .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: #e02133;
+  border-color: #e02133;
 }
 
 /* line 108, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:checked + .btn-outline-primary:focus,
 .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(128, 0, 128, 0.5);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(224, 33, 51, 0.5);
 }
 
 /* line 118, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: purple;
+  color: #e02133;
   background-color: transparent;
 }
 
 /* line 66, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
 .btn-outline-secondary {
-  color: #6c757d;
-  border-color: #6c757d;
+  color: #0073cf;
+  border-color: #0073cf;
 }
 
 /* line 88, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #0073cf;
+  border-color: #0073cf;
 }
 
 /* line 94, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:focus + .btn-outline-secondary, .btn-outline-secondary:focus {
-  box-shadow: 0 0 0 0.25rem rgba(108, 117, 125, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(0, 115, 207, 0.5);
 }
 
 /* line 99, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:checked + .btn-outline-secondary,
 .btn-check:active + .btn-outline-secondary, .btn-outline-secondary:active, .btn-outline-secondary.active, .btn-outline-secondary.dropdown-toggle.show {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #0073cf;
+  border-color: #0073cf;
 }
 
 /* line 108, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-check:checked + .btn-outline-secondary:focus,
 .btn-check:active + .btn-outline-secondary:focus, .btn-outline-secondary:active:focus, .btn-outline-secondary.active:focus, .btn-outline-secondary.dropdown-toggle.show:focus {
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(108, 117, 125, 0.5);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125), 0 0 0 0.25rem rgba(0, 115, 207, 0.5);
 }
 
 /* line 118, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_buttons.scss */
 .btn-outline-secondary:disabled, .btn-outline-secondary.disabled {
-  color: #6c757d;
+  color: #0073cf;
   background-color: transparent;
 }
 
@@ -4094,13 +4094,13 @@ fieldset:disabled .btn {
 /* line 78, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
 .btn-link {
   font-weight: 400;
-  color: purple;
+  color: #e02133;
   text-decoration: underline;
 }
 
 /* line 83, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
 .btn-link:hover {
-  color: #660066;
+  color: #b31a29;
 }
 
 /* line 92, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_buttons.scss */
@@ -4487,7 +4487,7 @@ fieldset:disabled .btn {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: purple;
+  background-color: #e02133;
 }
 
 /* line 170, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_dropdown.scss */
@@ -4540,7 +4540,7 @@ fieldset:disabled .btn {
 /* line 217, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_dropdown.scss */
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
   color: #fff;
-  background-color: purple;
+  background-color: #e02133;
 }
 
 /* line 223, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_dropdown.scss */
@@ -4713,7 +4713,7 @@ fieldset:disabled .btn {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: purple;
+  color: #e02133;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -4727,7 +4727,7 @@ fieldset:disabled .btn {
 
 /* line 23, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_nav.scss */
 .nav-link:hover, .nav-link:focus {
-  color: #660066;
+  color: #b31a29;
 }
 
 /* line 30, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_nav.scss */
@@ -4790,7 +4790,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: purple;
+  background-color: #e02133;
 }
 
 /* line 104, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_nav.scss */
@@ -5662,14 +5662,14 @@ fieldset:disabled .btn {
 
 /* line 20, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_accordion.scss */
 .accordion-button:not(.collapsed) {
-  color: #730073;
-  background-color: #f2e6f2;
+  color: #ca1e2e;
+  background-color: #fce9eb;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 
 /* line 25, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_accordion.scss */
 .accordion-button:not(.collapsed)::after {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23730073'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ca1e2e'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
   transform: rotate(-180deg);
 }
 
@@ -5701,9 +5701,9 @@ fieldset:disabled .btn {
 /* line 48, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_accordion.scss */
 .accordion-button:focus {
   z-index: 3;
-  border-color: #c080c0;
+  border-color: #f09099;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(224, 33, 51, 0.25);
 }
 
 /* line 56, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_accordion.scss */
@@ -5822,7 +5822,7 @@ fieldset:disabled .btn {
 .page-link {
   position: relative;
   display: block;
-  color: purple;
+  color: #e02133;
   text-decoration: none;
   background-color: #fff;
   border: 1px solid #dee2e6;
@@ -5839,7 +5839,7 @@ fieldset:disabled .btn {
 /* line 15, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_pagination.scss */
 .page-link:hover {
   z-index: 2;
-  color: #660066;
+  color: #b31a29;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
@@ -5847,10 +5847,10 @@ fieldset:disabled .btn {
 /* line 23, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_pagination.scss */
 .page-link:focus {
   z-index: 3;
-  color: #660066;
+  color: #b31a29;
   background-color: #e9ecef;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(224, 33, 51, 0.25);
 }
 
 /* line 33, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_pagination.scss */
@@ -5862,8 +5862,8 @@ fieldset:disabled .btn {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: #e02133;
+  border-color: #e02133;
 }
 
 /* line 44, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_pagination.scss */
@@ -5987,26 +5987,26 @@ fieldset:disabled .btn {
 
 /* line 53, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_alert.scss */
 .alert-primary {
-  color: #4d004d;
-  background-color: #e6cce6;
-  border-color: #d9b3d9;
+  color: #86141f;
+  background-color: #f9d3d6;
+  border-color: #f6bcc2;
 }
 
 /* line 7, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_alert.scss */
 .alert-primary .alert-link {
-  color: #3e003e;
+  color: #6b1019;
 }
 
 /* line 53, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_alert.scss */
 .alert-secondary {
-  color: #41464b;
-  background-color: #e2e3e5;
-  border-color: #d3d6d8;
+  color: #00457c;
+  background-color: #cce3f5;
+  border-color: #b3d5f1;
 }
 
 /* line 7, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_alert.scss */
 .alert-secondary .alert-link {
-  color: #34383c;
+  color: #003763;
 }
 
 /* line 53, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_alert.scss */
@@ -6107,7 +6107,7 @@ fieldset:disabled .btn {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: purple;
+  background-color: #e02133;
   transition: width 0.6s ease;
 }
 
@@ -6212,8 +6212,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: purple;
-  border-color: purple;
+  background-color: #e02133;
+  border-color: #e02133;
 }
 
 /* line 89, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_list-group.scss */
@@ -6433,40 +6433,40 @@ fieldset:disabled .btn {
 
 /* line 5, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_list-group.scss */
 .list-group-item-primary {
-  color: #4d004d;
-  background-color: #e6cce6;
+  color: #86141f;
+  background-color: #f9d3d6;
 }
 
 /* line 10, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_list-group.scss */
 .list-group-item-primary.list-group-item-action:hover, .list-group-item-primary.list-group-item-action:focus {
-  color: #4d004d;
-  background-color: #cfb8cf;
+  color: #86141f;
+  background-color: #e0bec1;
 }
 
 /* line 16, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_list-group.scss */
 .list-group-item-primary.list-group-item-action.active {
   color: #fff;
-  background-color: #4d004d;
-  border-color: #4d004d;
+  background-color: #86141f;
+  border-color: #86141f;
 }
 
 /* line 5, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_list-group.scss */
 .list-group-item-secondary {
-  color: #41464b;
-  background-color: #e2e3e5;
+  color: #00457c;
+  background-color: #cce3f5;
 }
 
 /* line 10, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_list-group.scss */
 .list-group-item-secondary.list-group-item-action:hover, .list-group-item-secondary.list-group-item-action:focus {
-  color: #41464b;
-  background-color: #cbccce;
+  color: #00457c;
+  background-color: #b8ccdd;
 }
 
 /* line 16, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_list-group.scss */
 .list-group-item-secondary.list-group-item-action.active {
   color: #fff;
-  background-color: #41464b;
-  border-color: #41464b;
+  background-color: #00457c;
+  border-color: #00457c;
 }
 
 /* line 5, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_list-group.scss */
@@ -6606,7 +6606,7 @@ fieldset:disabled .btn {
 /* line 24, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/_close.scss */
 .btn-close:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(128, 0, 128, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(224, 33, 51, 0.25);
   opacity: 1;
 }
 
@@ -7823,22 +7823,22 @@ fieldset:disabled .btn {
 
 /* line 2, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/helpers/_colored-links.scss */
 .link-primary {
-  color: purple;
+  color: #e02133;
 }
 
 /* line 6, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/helpers/_colored-links.scss */
 .link-primary:hover, .link-primary:focus {
-  color: #660066;
+  color: #b31a29;
 }
 
 /* line 2, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/helpers/_colored-links.scss */
 .link-secondary {
-  color: #6c757d;
+  color: #0073cf;
 }
 
 /* line 6, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/helpers/_colored-links.scss */
 .link-secondary:hover, .link-secondary:focus {
-  color: #565e64;
+  color: #005ca6;
 }
 
 /* line 2, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/helpers/_colored-links.scss */
@@ -8383,12 +8383,12 @@ fieldset:disabled .btn {
 
 /* line 64, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .border-primary {
-  border-color: purple !important;
+  border-color: #e02133 !important;
 }
 
 /* line 64, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_utilities.scss */
 .border-secondary {
-  border-color: #6c757d !important;
+  border-color: #0073cf !important;
 }
 
 /* line 64, ../GitHub/ks_insurance/client/node_modules/bootstrap/scss/mixins/_utilities.scss */
@@ -13043,17 +13043,22 @@ fieldset:disabled .btn {
   }
 }
 
-/* line 13, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+/* line 19, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 .App {
   max-width: 100vw;
 }
 
-/* line 17, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+/* line 22, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+body {
+  background-color: #eae7dc;
+}
+
+/* line 25, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 .btn-primary {
   color: white;
 }
 
-/* line 20, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+/* line 28, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 .noScroll {
   overflow: hidden;
 }

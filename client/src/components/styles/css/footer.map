@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "footer.css",
+	"sources": [
+		"../sass/footer.scss"
+	],
+	"sourcesContent": [
+		"footer {\r\n  //   border: 5px solid red;\r\n  text-align: center;\r\n  background-color: #d8c3a5;\r\n  color: white;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,MAAM,CAAC;EAEL,UAAU,EAAE,MAAM;EAClB,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;CACpB"
+}

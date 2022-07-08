@@ -1,25 +1,36 @@
 /* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
-#about-page {
-  width: 100vw;
+#about-page-container {
+  display: flex;
+  flex-direction: column;
 }
 
-/* line 3, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
-#about-page #about-container > * {
-  border: 5px solid black;
-  margin: 10px;
-}
-
-/* line 7, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
-#about-page #about-container {
-  width: 100vw;
-  border: 7px solid green;
+/* line 8, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
+#about-main-content {
+  align-self: center;
+  padding-top: 10vh;
+  min-height: 100vh;
+  width: 80vw;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 250px;
 }
 
-/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
-#about-page #about-container img {
-  width: 40vw;
+/* line 17, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
+#about-main-left {
+  border: 3px solid green;
+  padding: 2vh;
+  padding-top: 4vh;
+}
+
+/* line 22, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
+#about-main-right {
+  border: 3px solid purple;
+}
+
+@media (max-width: 1050px) {
+  /* line 26, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
+  #about-main-content {
+    width: 95vw;
+  }
 }
 
 /*# sourceMappingURL=about.css.map */

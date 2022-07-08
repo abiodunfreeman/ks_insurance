@@ -10,6 +10,7 @@ const Header = () => {
     const body = document.querySelector('body');
     const menuBtn = document.querySelector('.menu-btn');
     const headerMobileNav = document.querySelector('#mobile-header-nav');
+    // stops scrolling of page when menu is open
     if (!menuOpen) {
       menuBtn.classList.add('open');
       headerMobileNav.classList.add('active-nav');
@@ -40,10 +41,10 @@ const Header = () => {
           Contact Us
         </a>
       </div>
-
-      <a href="/">
-        <img src={logo} alt="logo" id="header-logo" />
-      </a>
+      {/* IMAGE */}
+      <Link id="logo-link" to="/">
+        <h1>KS Insurance Agency</h1>
+      </Link>
       <div onClick={() => handleMenuClick()} className="menu-btn">
         <div className="menu-btn__burger"></div>
       </div>

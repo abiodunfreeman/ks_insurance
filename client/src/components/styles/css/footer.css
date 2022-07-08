@@ -1,0 +1,11 @@
+/* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/footer.scss */
+footer {
+  text-align: center;
+  background-color: #d8c3a5;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -2,6 +2,7 @@ import Hero from './Hero';
 import Bio from './Bio';
 import './styles/css/home.css';
 import ContactForm from './ContactForm';
+import Footer from './Footer';
 const Home = props => {
   const { handleContactUsFormSubmit } = props;
   return (
@@ -13,6 +14,7 @@ const Home = props => {
         <h2 className="author">— Warren Buffet</h2>
       </div>
       <ContactForm handleContactUsFormSubmit={handleContactUsFormSubmit} />
+      <Footer />
     </div>
   );
 };
