@@ -1,0 +1,25 @@
+/* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
+#about-page {
+  width: 100vw;
+}
+
+/* line 3, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
+#about-page #about-container > * {
+  border: 5px solid black;
+  margin: 10px;
+}
+
+/* line 7, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
+#about-page #about-container {
+  width: 100vw;
+  border: 7px solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
+#about-page #about-container img {
+  width: 40vw;
+}
+
+/*# sourceMappingURL=about.css.map */

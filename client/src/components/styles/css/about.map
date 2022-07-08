@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "about.css",
+	"sources": [
+		"../sass/about.scss"
+	],
+	"sourcesContent": [
+		"#about-page {\r\n  width: 100vw;\r\n  #about-container > * {\r\n    border: 5px solid black;\r\n    margin: 10px;\r\n  }\r\n  #about-container {\r\n    width: 100vw;\r\n    border: 7px solid green;\r\n    display: grid;\r\n    grid-template-columns: 1fr 1fr;\r\n    img {\r\n      width: 40vw;\r\n    }\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,KAAK;CAcb;;;AAfD,AAEE,WAFS,CAET,gBAAgB,GAAG,CAAC,CAAC;EACnB,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,IAAI;CACb;;;AALH,AAME,WANS,CAMT,gBAAgB,CAAC;EACf,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,eAAe;EACvB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;CAI/B;;;AAdH,AAWI,WAXO,CAMT,gBAAgB,CAKd,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;CACZ"
+}

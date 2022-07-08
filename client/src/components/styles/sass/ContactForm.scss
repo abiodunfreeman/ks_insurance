@@ -1,12 +1,22 @@
 #ContactForm {
-  // border: 3px solid blue;
-  display: grid;
-  grid-template-columns: 1fr 500px 1fr;
-}
-#ContactForm-container {
+  max-width: 600px;
+  align-self: center;
+  border: 3px solid blue;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
   h1 {
     text-align: center;
   }
-  grid-column: 2/3;
-  // border: 3px solid red;
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    border: 4px solid red;
+    input,
+    textarea {
+      width: 100%;
+    }
+  }
 }

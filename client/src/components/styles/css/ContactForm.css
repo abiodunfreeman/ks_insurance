@@ -1,17 +1,31 @@
 /* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
 #ContactForm {
-  display: grid;
-  grid-template-columns: 1fr 500px 1fr;
+  max-width: 600px;
+  align-self: center;
+  border: 3px solid blue;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
 }
 
-/* line 6, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
-#ContactForm-container {
-  grid-column: 2/3;
-}
-
-/* line 7, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
-#ContactForm-container h1 {
+/* line 8, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
+#ContactForm h1 {
   text-align: center;
+}
+
+/* line 11, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
+#ContactForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  border: 4px solid red;
+}
+
+/* line 17, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
+#ContactForm form input,
+#ContactForm form textarea {
+  width: 100%;
 }
 
 /*# sourceMappingURL=ContactForm.css.map */

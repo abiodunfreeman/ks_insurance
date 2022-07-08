@@ -1,0 +1,16 @@
+#about-page {
+  width: 100vw;
+  #about-container > * {
+    border: 5px solid black;
+    margin: 10px;
+  }
+  #about-container {
+    width: 100vw;
+    border: 7px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    img {
+      width: 40vw;
+    }
+  }
+}

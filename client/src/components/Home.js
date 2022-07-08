@@ -10,7 +10,7 @@ const Home = props => {
       <Bio />
       <div id="home-quote">
         <h1>“Price is what you pay. Value is what you get.”</h1>
-        <h2>- Warren Buffet</h2>
+        <h2 className="author">— Warren Buffet</h2>
       </div>
       <ContactForm handleContactUsFormSubmit={handleContactUsFormSubmit} />
     </div>
