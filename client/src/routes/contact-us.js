@@ -10,11 +10,6 @@ export default function ContactUs() {
       <div id="contact-form-container">
         <ContactForm />
       </div>
-
-      <h1>Contact US</h1>
-      <h1>PHONE</h1>
-      <h1>Address</h1>
-      <h1>Fax?</h1>
       <Footer />
     </div>
   );

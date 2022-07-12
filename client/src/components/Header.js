@@ -4,13 +4,13 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const handleMenuClick = () => {
-    console.log('menu click');
+  function checkIfMobileMenuIsOpen() {
+    // stops scrolling of page when menu is open
     const html = document.querySelector('html');
     const body = document.querySelector('body');
     const menuBtn = document.querySelector('.menu-btn');
     const headerMobileNav = document.querySelector('#mobile-header-nav');
-    // stops scrolling of page when menu is open
+
     if (!menuOpen) {
       menuBtn.classList.add('open');
       headerMobileNav.classList.add('active-nav');
@@ -24,6 +24,11 @@ const Header = () => {
       body.classList.remove('noScroll');
       setMenuOpen(prevState => !prevState);
     }
+  }
+  const handleMenuClick = () => {
+    console.log('menu click');
+
+    checkIfMobileMenuIsOpen();
   };
   return (
     <header>
@@ -48,11 +53,21 @@ const Header = () => {
 
       <nav id="mobile-header-nav">
         <div className="link-list">
-          <Link to="/">Home</Link>
-          <Link to="/about" className="link link-info">
+          <Link to="/" onClick={() => checkIfMobileMenuIsOpen()}>
+            Home
+          </Link>
+          <Link
+            to="/about"
+            onClick={() => checkIfMobileMenuIsOpen()}
+            className="link link-info"
+          >
             About
           </Link>
-          <Link to="/contact-us" className="link link-info">
+          <Link
+            to="/contact-us"
+            onClick={() => checkIfMobileMenuIsOpen()}
+            className="link link-info"
+          >
             Contact Us
           </Link>
         </div>

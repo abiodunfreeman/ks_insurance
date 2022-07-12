@@ -8,12 +8,14 @@
 
 /* line 6, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
 #contact-route-container #ContactForm {
-  background-color: white;
+  background-color: snow;
   border-radius: 4px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* line 11, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
 #contact-route-container #contact-form-container {
+  min-height: 90vh;
   padding: 5rem;
   display: flex;
   justify-content: center;
@@ -23,7 +25,7 @@
   background-size: cover;
 }
 
-/* line 23, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+/* line 25, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
 .pad-10 {
   padding-top: 10vh;
 }

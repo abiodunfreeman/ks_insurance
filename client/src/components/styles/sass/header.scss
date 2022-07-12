@@ -109,9 +109,9 @@ header {
   }
   #mobile-header-nav {
     z-index: 10;
-    border: 4px solid black;
+    // border: 4px solid black;
     display: none;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
   }
   #mobile-header-nav.active-nav {
     // border: 5px solid red;
