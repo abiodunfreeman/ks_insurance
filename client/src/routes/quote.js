@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 import '../components/styles/css/quote.css';
 export default function Quote() {
   return (
@@ -34,6 +35,7 @@ export default function Quote() {
           </button>
         </form>
       </div>
+      <Footer />
     </section>
   );
 }

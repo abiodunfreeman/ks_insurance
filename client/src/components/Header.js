@@ -27,6 +27,9 @@ const Header = () => {
   };
   return (
     <header>
+      <Link id="logo-link" to="/">
+        <h1>KS Insurance Agency</h1>
+      </Link>
       <div id="header-nav">
         <a href="#contact-us" className="link link-primary">
           (440) 354-4664
@@ -41,10 +44,7 @@ const Header = () => {
           Contact Us
         </a>
       </div>
-      {/* IMAGE */}
-      <Link id="logo-link" to="/">
-        <h1>KS Insurance Agency</h1>
-      </Link>
+
       <div onClick={() => handleMenuClick()} className="menu-btn">
         <div className="menu-btn__burger"></div>
       </div>

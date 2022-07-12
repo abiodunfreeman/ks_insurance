@@ -1,0 +1,12 @@
+/* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/login.scss */
+#login-page-container {
+  border: 10px solid green;
+  min-height: 100vh;
+}
+
+/* line 4, ../GitHub/ks_insurance/client/src/components/styles/sass/login.scss */
+#login-page-container div {
+  height: 1000px;
+}
+
+/*# sourceMappingURL=login.css.map */
