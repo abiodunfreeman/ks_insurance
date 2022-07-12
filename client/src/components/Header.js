@@ -31,7 +31,7 @@ const Header = () => {
     checkIfMobileMenuIsOpen();
   };
   return (
-    <header>
+    <header className="">
       <Link id="logo-link" to="/">
         <h1>KS Insurance Agency</h1>
       </Link>

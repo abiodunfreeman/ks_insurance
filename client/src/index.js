@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -15,7 +16,7 @@ root.render(
         <Route path="/quote" element={<Quote />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
-        <Route path='/contact-us' element={<ContactUs/>}/>
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
     </React.StrictMode>
   </BrowserRouter>
