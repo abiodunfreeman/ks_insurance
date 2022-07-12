@@ -14,6 +14,16 @@ const Home = props => {
         <h2 className="author">— Warren Buffet</h2>
       </div>
       <ContactForm handleContactUsFormSubmit={handleContactUsFormSubmit} />
+      <div id="hero2">
+        <h3>
+          It's not just <br />
+          About Insurance <br />
+          <span id="sec-text">
+            Our Focus is on protecting what matters most: <br />
+            You, your family, and your business.
+          </span>
+        </h3>
+      </div>
       <Footer />
     </div>
   );

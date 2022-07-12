@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "contact.css",
+	"sources": [
+		"../sass/contact.scss"
+	],
+	"sourcesContent": [
+		"#contact-route-container {\r\n  min-height: 100vh;\r\n  border: 5px solid red;\r\n  display: flex;\r\n  flex-direction: column;\r\n  #ContactForm {\r\n    // border: 5px solid purple;\r\n    background-color: white;\r\n    border-radius: 4px;\r\n  }\r\n  #contact-form-container {\r\n    padding: 5rem;\r\n    display: flex;\r\n    justify-content: center;\r\n    // border: 5px solid blue;\r\n    background-image: url(https://images.unsplash.com/photo-1578241561880-0a1d5db3cb8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80);\r\n    background-repeat: no-repeat;\r\n    background-position: center;\r\n    background-size: cover;\r\n  }\r\n  //   justify-content: center;\r\n}\r\n.pad-10 {\r\n  //   margin-top: 15vh;\r\n  //   box-sizing: border-box;\r\n  padding-top: 10vh;\r\n  //   border: 3px solid black;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,wBAAwB,CAAC;EACvB,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,aAAa;EACrB,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAiBvB;;;AArBD,AAKE,wBALsB,CAKtB,YAAY,CAAC;EAEX,gBAAgB,EAAE,KAAK;EACvB,aAAa,EAAE,GAAG;CACnB;;;AATH,AAUE,wBAVsB,CAUtB,uBAAuB,CAAC;EACtB,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EAEvB,gBAAgB,EAAE,mKAAmK;EACrL,iBAAiB,EAAE,SAAS;EAC5B,mBAAmB,EAAE,MAAM;EAC3B,eAAe,EAAE,KAAK;CACvB;;;AAGH,AAAA,OAAO,CAAC;EAGN,WAAW,EAAE,IAAI;CAElB"
+}

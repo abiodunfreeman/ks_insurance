@@ -1,0 +1,31 @@
+/* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+#contact-route-container {
+  min-height: 100vh;
+  border: 5px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 6, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+#contact-route-container #ContactForm {
+  background-color: white;
+  border-radius: 4px;
+}
+
+/* line 11, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+#contact-route-container #contact-form-container {
+  padding: 5rem;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1578241561880-0a1d5db3cb8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 23, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+.pad-10 {
+  padding-top: 10vh;
+}
+
+/*# sourceMappingURL=contact.css.map */

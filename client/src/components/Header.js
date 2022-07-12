@@ -45,16 +45,16 @@ const Header = () => {
       <div onClick={() => handleMenuClick()} className="menu-btn">
         <div className="menu-btn__burger"></div>
       </div>
-      
+
       <nav id="mobile-header-nav">
         <div className="link-list">
-          
-        <Link to="/about" className="link link-info">
-          About
-        </Link>
-        <Link to="/contact-us" className="link link-info">
-          Contact Us
-        </Link>
+          <Link to="/">Home</Link>
+          <Link to="/about" className="link link-info">
+            About
+          </Link>
+          <Link to="/contact-us" className="link link-info">
+            Contact Us
+          </Link>
         </div>
 
         <Link className="btn btn-primary" to="/quote">

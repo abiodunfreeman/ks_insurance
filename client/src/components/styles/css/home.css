@@ -24,4 +24,27 @@
   flex-direction: column;
 }
 
+/* line 23, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
+#hero2 {
+  height: 90vh;
+  background-image: url(https://images.unsplash.com/photo-1578241561880-0a1d5db3cb8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 32, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
+#hero2 h3 {
+  color: white;
+  margin-left: 15vw;
+  font-size: xx-large;
+}
+
+/* line 38, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
+#sec-text {
+  font-size: medium;
+}
+
 /*# sourceMappingURL=home.css.map */
