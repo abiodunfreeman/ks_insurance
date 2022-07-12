@@ -31,40 +31,30 @@ const Header = () => {
         <h1>KS Insurance Agency</h1>
       </Link>
       <div id="header-nav">
-        <a href="#contact-us" className="link link-primary">
-          (440) 354-4664
-        </a>
-        <a href="/services" className="link link-primary">
-          Services
-        </a>
         <Link to="/about" className="link link-info">
           About
         </Link>
-        <a href="/contact-us" className="link link-info">
+        <Link to="/contact-us" className="link link-info">
           Contact Us
-        </a>
+        </Link>
+        <Link className="btn btn-primary" to="/quote">
+          Get a Quote
+        </Link>
       </div>
 
       <div onClick={() => handleMenuClick()} className="menu-btn">
         <div className="menu-btn__burger"></div>
       </div>
-      <a href="/quote" id="header-btn" className="btn btn-primary ">
-        Get a Quote
-      </a>
+      
       <nav id="mobile-header-nav">
         <div className="link-list">
-          <a href="#contact-us" className="link link-primary">
-            (440) 354-4664
-          </a>
-          <a href="/contact-us" className="link link-primary">
-            Services
-          </a>
-          <a href="/contact-us" className="link link-info">
-            About
-          </a>
-          <a href="/contact-us" className="link link-info">
-            Contact Us
-          </a>
+          
+        <Link to="/about" className="link link-info">
+          About
+        </Link>
+        <Link to="/contact-us" className="link link-info">
+          Contact Us
+        </Link>
         </div>
 
         <Link className="btn btn-primary" to="/quote">
