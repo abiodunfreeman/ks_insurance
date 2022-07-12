@@ -31,18 +31,19 @@
   background-size: cover;
   background-position: center;
   display: flex;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
   flex-direction: column;
   justify-content: center;
 }
 
-/* line 32, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
+/* line 33, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
 #hero2 h3 {
   color: white;
   margin-left: 15vw;
   font-size: xx-large;
 }
 
-/* line 38, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
+/* line 39, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
 #sec-text {
   font-size: medium;
 }

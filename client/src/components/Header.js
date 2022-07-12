@@ -36,10 +36,13 @@ const Header = () => {
         <h1>KS Insurance Agency</h1>
       </Link>
       <div id="header-nav">
-        <Link to="/about" className="link link-info">
+        <div className="header-text" style={{ color: 'black' }}>
+          (440) 354-4664
+        </div>
+        <Link to="/about" className="link header-text">
           About
         </Link>
-        <Link to="/contact-us" className="link link-info">
+        <Link to="/contact-us" className="link header-text">
           Contact Us
         </Link>
         <Link className="btn btn-primary" to="/quote">
@@ -53,28 +56,34 @@ const Header = () => {
 
       <nav id="mobile-header-nav">
         <div className="link-list">
-          <Link to="/" onClick={() => checkIfMobileMenuIsOpen()}>
+          <div className="mobile-header-text" style={{ color: 'white' }}>
+            (440) 354-4664
+          </div>
+          <Link
+            className="link mobile-header-text"
+            to="/"
+            onClick={() => checkIfMobileMenuIsOpen()}
+          >
             Home
           </Link>
           <Link
             to="/about"
             onClick={() => checkIfMobileMenuIsOpen()}
-            className="link link-info"
+            className="link mobile-header-text"
           >
             About
           </Link>
           <Link
             to="/contact-us"
             onClick={() => checkIfMobileMenuIsOpen()}
-            className="link link-info"
+            className="link mobile-header-text"
           >
             Contact Us
           </Link>
+          <Link className="btn btn-primary" to="/quote">
+            Get a Quote
+          </Link>
         </div>
-
-        <Link className="btn btn-primary" to="/quote">
-          Get a Quote
-        </Link>
       </nav>
     </header>
   );

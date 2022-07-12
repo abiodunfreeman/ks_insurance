@@ -17,12 +17,16 @@ header {
   .menu-btn {
     display: none;
   }
-  .link {
+  .header-text {
     color: $color5;
+    font-size: 16px;
+  }
+  .link {
+    cursor: pointer;
     text-decoration: none;
   }
   .link:hover {
-    cursor: pointer;
+    text-decoration: underline;
   }
   #header-nav {
     display: flex;
@@ -109,7 +113,7 @@ header {
   }
   #mobile-header-nav {
     z-index: 10;
-    // border: 4px solid black;
+    // border: 4px solid blue;
     display: none;
     background-color: rgba(0, 0, 0, 0.9);
   }
@@ -131,11 +135,9 @@ header {
       flex-direction: column;
       gap: 5px;
       font-size: 35px;
-      justify-self: center;
-      text-align: center;
-      a {
-        text-decoration: none;
-      }
+      align-items: center;
+      // justify-self: center;
+      // text-align: center;
     }
     .btn {
       border-radius: 0;
