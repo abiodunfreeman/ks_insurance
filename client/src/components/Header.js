@@ -56,9 +56,7 @@ const Header = () => {
 
       <nav id="mobile-header-nav">
         <div className="link-list">
-          <div className="mobile-header-text" style={{ color: 'white' }}>
-            (440) 354-4664
-          </div>
+          <div className="mobile-header-text text-white">(440) 354-4664</div>
           <Link
             className="link mobile-header-text"
             to="/"
