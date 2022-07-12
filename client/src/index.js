@@ -5,6 +5,7 @@ import App from './App';
 import Quote from './routes/quote';
 import About from './routes/about';
 import Login from './routes/login';
+import ContactUs from './routes/contact-us';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -14,6 +15,7 @@ root.render(
         <Route path="/quote" element={<Quote />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path='/contact-us' element={<ContactUs/>}/>
       </Routes>
     </React.StrictMode>
   </BrowserRouter>
