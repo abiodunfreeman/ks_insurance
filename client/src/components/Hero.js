@@ -4,14 +4,18 @@ const Hero = props => {
   return (
     <div className="hero-container">
       <div className="bgimage">
-        <h3>
-          It's not just <br />
-          About Insurance <br />
-          <span id="sec-text">
+        <div id="hero-text">
+          <h3>
+            It's not just <br />
+            about Insurance <br />
+          </h3>
+          <span className="sec-text">
             Our Focus is on protecting what matters most: <br />
-            You, your family, and your business.
+            You, your family, and your business. <br />
+            <br />
+            Locally owned and ran in Cleveland, Ohio
           </span>
-        </h3>
+        </div>
       </div>
       <div className="hero-overlay"></div>
     </div>

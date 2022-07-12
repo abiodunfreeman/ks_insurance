@@ -29,19 +29,29 @@
 }
 
 /* line 28, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+.bgimage #hero-text {
+  margin-left: 15vw;
+}
+
+/* line 31, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .bgimage h3 {
   color: white;
-  margin-left: 15vw;
   font-size: 4rem;
 }
 
-/* line 34, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 36, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+.bgimage .sec-text {
+  color: white;
+  font-size: larger;
+}
+
+/* line 41, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .bgimage h2 {
   color: white;
   text-shadow: 2px 2px #333;
 }
 
-/* line 38, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 45, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .hero-container {
   position: relative;
 }
