@@ -1,18 +1,22 @@
 /* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
 #ContactForm {
+  min-height: 600px;
   max-width: 600px;
   align-self: center;
+  background-color: snow;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   padding: 35px;
 }
 
-/* line 8, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
+/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
 #ContactForm h1 {
   text-align: center;
 }
 
-/* line 11, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
+/* line 15, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
 #ContactForm form {
   display: flex;
   flex-direction: column;
@@ -20,7 +24,7 @@
   width: 100%;
 }
 
-/* line 17, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
+/* line 21, ../GitHub/ks_insurance/client/src/components/styles/sass/ContactForm.scss */
 #ContactForm form input,
 #ContactForm form textarea {
   width: 100%;

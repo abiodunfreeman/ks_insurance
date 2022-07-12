@@ -1,19 +1,11 @@
 /* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
 #contact-route-container {
   min-height: 100vh;
-  border: 5px solid red;
   display: flex;
   flex-direction: column;
 }
 
-/* line 6, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
-#contact-route-container #ContactForm {
-  background-color: snow;
-  border-radius: 4px;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
-}
-
-/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+/* line 7, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
 #contact-route-container #contact-form-container {
   min-height: 90vh;
   padding: 5rem;
@@ -25,9 +17,46 @@
   background-size: cover;
 }
 
-/* line 25, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+/* line 17, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+#contact-route-container #contact-form-container #ContactForm {
+  align-self: flex-start;
+}
+
+/* line 24, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
 .pad-10 {
   padding-top: 10vh;
+}
+
+/* line 30, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+.contact-info-container {
+  align-self: flex-start;
+  max-width: 600px;
+  padding: 35px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* line 40, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+.contact-info-container h1 {
+  text-align: center;
+}
+
+/* line 43, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+.contact-info-container p {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1050px) {
+  /* line 48, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+  #contact-form-container {
+    flex-direction: column;
+  }
+  /* line 51, ../GitHub/ks_insurance/client/src/components/styles/sass/contact.scss */
+  #contact-form-container .contact-info-container {
+    align-self: center;
+  }
 }
 
 /*# sourceMappingURL=contact.css.map */
