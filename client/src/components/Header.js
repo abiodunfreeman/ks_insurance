@@ -1,5 +1,5 @@
 import './styles/css/header.css';
-import logo from './images/logo/profile.png';
+
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 const Header = () => {

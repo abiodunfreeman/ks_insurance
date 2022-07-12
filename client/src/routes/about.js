@@ -1,6 +1,5 @@
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import img1 from '../components/images/people_at_table.jpg';
 import '../components/styles/css/about.css';
 export default function About() {
   return (
