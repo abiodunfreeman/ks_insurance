@@ -38,21 +38,22 @@
 .bgimage h3 {
   color: white;
   font-size: 4rem;
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.7);
 }
 
-/* line 38, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 40, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .bgimage .sec-text {
   color: white;
   font-size: larger;
 }
 
-/* line 43, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 47, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .bgimage h2 {
   color: white;
   text-shadow: 2px 2px #333;
 }
 
-/* line 47, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 51, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .hero-container {
   position: relative;
 }
