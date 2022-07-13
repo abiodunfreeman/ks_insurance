@@ -17,7 +17,6 @@
   margin-top: 10vh;
   width: 100%;
   height: 90vh;
-  background-image: url("../../../components/images/logo/cleve-bg.jpg");
   background-repeat: no-repeat;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.6);
   background-position: center;
@@ -26,34 +25,53 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  animation: change 60s infinite ease;
 }
 
-/* line 28, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 30, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .bgimage #hero-text {
   margin-left: 15vw;
 }
 
-/* line 31, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 33, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .bgimage h3 {
   color: white;
   font-size: 4rem;
 }
 
-/* line 36, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 38, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .bgimage .sec-text {
   color: white;
   font-size: larger;
 }
 
-/* line 41, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 43, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .bgimage h2 {
   color: white;
   text-shadow: 2px 2px #333;
 }
 
-/* line 45, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
+/* line 47, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
 .hero-container {
   position: relative;
+}
+
+@keyframes change {
+  0%,
+  23% {
+    background-image: url("../../images/logo/cleve-bg.jpg");
+  }
+  33%,
+  56% {
+    background-image: url("../../images/gardening.jpg");
+  }
+  66%,
+  90% {
+    background-image: url("../../images/car.jpg");
+  }
+  100% {
+    background-image: url("../../images/logo/cleve-bg.jpg");
+  }
 }
 
 /*# sourceMappingURL=hero.css.map */

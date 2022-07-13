@@ -17,7 +17,6 @@ const Hero = props => {
           </span>
         </div>
       </div>
-      <div className="hero-overlay"></div>
     </div>
   );
 };
