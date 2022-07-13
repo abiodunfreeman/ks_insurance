@@ -1,13 +1,18 @@
-import Hero from './Hero';
+import React, { Suspense } from 'react';
+
 import Bio from './Bio';
 import './styles/css/home.css';
 import ContactForm from './ContactForm';
 import Footer from './Footer';
+const Hero = React.lazy(() => import('./Hero'));
 const Home = props => {
   const { handleContactUsFormSubmit } = props;
   return (
     <div id="home-container">
-      <Hero />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Hero />
+      </Suspense>
+
       <Bio />
       <div id="home-quote">
         <h1>“Price is what you pay. Value is what you get.”</h1>
