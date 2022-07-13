@@ -4,6 +4,7 @@ import Bio from './Bio';
 import './styles/css/home.css';
 import ContactForm from './ContactForm';
 import Footer from './Footer';
+import IconRow from './IconRow';
 const Hero = React.lazy(() => import('./Hero'));
 const Home = props => {
   const { handleContactUsFormSubmit } = props;
@@ -14,6 +15,8 @@ const Home = props => {
       </Suspense>
 
       <Bio />
+
+      <IconRow />
       <div id="home-quote">
         <h1>
           “Price is what you pay. <span className="text-red-500">Value</span> is

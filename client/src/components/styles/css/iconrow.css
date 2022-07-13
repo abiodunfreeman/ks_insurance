@@ -1,0 +1,35 @@
+/* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+#icon-row-container {
+  background-color: white;
+  padding: 1.5rem;
+}
+
+/* line 4, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+#icon-row-container .svg {
+  transition-duration: 300ms;
+  font-size: 50px;
+}
+
+/* line 9, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+#icon-row-container .svg:hover {
+  color: #dc2626;
+}
+
+/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+#icon-row-container .svgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50%;
+  transition-duration: 300ms;
+  height: 150px;
+  width: 150px;
+}
+
+/* line 22, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+#icon-row-container .svgContainer:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=iconrow.css.map */
