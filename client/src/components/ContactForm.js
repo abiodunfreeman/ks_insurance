@@ -17,6 +17,11 @@ const ContactForm = props => {
         <input type="text" id="contact-form-name" placeholder="Name" />
         <input type="text" id="contact-form-email" placeholder="Email" />
         <textarea rows="5" id="contact-form-msg" placeholder="Message..." />
+        <div className="flex gap-4">
+          <label for="contact-form-file">*Optional* </label>
+          <input type="file" id="contact-form-file" />
+        </div>
+
         <button className="btn btn-primary" type="submit">
           SUBMIT
         </button>
