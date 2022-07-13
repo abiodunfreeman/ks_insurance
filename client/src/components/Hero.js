@@ -13,7 +13,7 @@ const Hero = props => {
             Our Focus is on protecting what matters most: <br />
             You, your family, and your business. <br />
             <br />
-            Locally owned and ran in Cleveland, Ohio
+            Locally owned and operated in Cleveland, Ohio
           </span>
         </div>
       </div>

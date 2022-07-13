@@ -1,7 +1,7 @@
 import './styles/css/bio.css';
 const Bio = () => {
   return (
-    <div id="main-bio">
+    <div id="main-bio" className="bg-light-blue-50">
       <h1>Insurance Ohio</h1>
       <h5>
         Headquartered in Cleveland, Ohio, we help local businesses and families

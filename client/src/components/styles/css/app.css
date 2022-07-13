@@ -13048,17 +13048,12 @@ fieldset:disabled .btn {
   max-width: 100vw;
 }
 
-/* line 22, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
-body {
-  background-color: #eae7dc;
-}
-
-/* line 25, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+/* line 23, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 .btn-primary {
   color: white;
 }
 
-/* line 28, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
+/* line 26, ../GitHub/ks_insurance/client/src/components/styles/sass/app.scss */
 .noScroll {
   overflow: hidden;
 }
