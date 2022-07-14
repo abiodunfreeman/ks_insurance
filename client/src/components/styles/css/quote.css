@@ -1,34 +1,36 @@
 /* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #quote-homepage {
-  height: 100vh;
+  border: 5px solid blue;
 }
 
-/* line 5, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+/* line 4, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #quote-homepage #quote-form-container {
-  height: 90vh;
-  border: 3px solid red;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 5px solid rebeccapurple;
+  margin-top: 10vh;
+  min-height: 800px;
 }
 
-/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
-#quote-homepage form {
-  padding: 40px;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
-  gap: 20px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  width: 500px;
+/* line 8, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+#quote-homepage #quote-form-container #quote-words-container {
+  border: 5px solid yellowgreen;
+  height: 500px;
+  min-width: 300px;
+  max-width: 600px;
 }
 
-/* line 20, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
-#quote-homepage form input,
-#quote-homepage form textarea {
-  background-color: #b4b3b3;
-  color: black;
-  border-radius: 4px;
+/* line 14, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+#quote-homepage #quote-form-container form {
+  border: 5px solid red;
+  height: 500px;
+  width: clamp(300px, 600px, 800px);
+  padding: 2.5rem;
+}
+
+@media (max-width: 1050px) {
+  /* line 23, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+  #quote-form-container {
+    flex-direction: column-reverse;
+  }
 }
 
 /*# sourceMappingURL=quote.css.map */

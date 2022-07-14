@@ -7,6 +7,7 @@ import Quote from './routes/quote';
 import About from './routes/about';
 import Login from './routes/login';
 import ContactUs from './routes/contact-us';
+import SignInSide from './routes/SignInSide';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -17,6 +18,7 @@ root.render(
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/signin" element={<SignInSide />} />
       </Routes>
     </React.StrictMode>
   </BrowserRouter>

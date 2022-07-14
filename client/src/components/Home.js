@@ -24,7 +24,7 @@ const Home = props => {
         </h1>
         <h2 className="author text-red-700">— Warren Buffet</h2>
       </div>
-      <ContactForm handleContactUsFormSubmit={handleContactUsFormSubmit} />
+      {/* <ContactForm handleContactUsFormSubmit={handleContactUsFormSubmit} /> */}
       <div id="hero2">
         <h3>
           It's not just <br />
