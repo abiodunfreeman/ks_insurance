@@ -1,39 +1,36 @@
 /* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #quote-homepage {
-  border: 5px solid blue;
+  min-height: 100vh;
 }
 
 /* line 4, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #quote-homepage #quote-form-container {
-  border: 5px solid rebeccapurple;
-  margin-top: 10vh;
+  padding: 100px;
   min-height: 800px;
 }
 
-/* line 8, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+/* line 9, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #quote-homepage #quote-form-container #quote-words-container {
-  border: 5px solid yellowgreen;
   height: 500px;
   min-width: 300px;
   max-width: 600px;
 }
 
-/* line 14, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+/* line 15, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #quote-homepage #quote-form-container form {
-  border: 5px solid red;
   width: clamp(300px, 600px, 800px);
-  padding: 2.5rem;
+  padding: 4.5rem;
   display: flex;
   flex-direction: column;
 }
 
-/* line 24, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+/* line 25, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #checkbox-group {
   display: flex;
 }
 
 @media (max-width: 1050px) {
-  /* line 28, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+  /* line 29, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
   #quote-form-container {
     flex-direction: column-reverse;
   }

@@ -1,21 +1,22 @@
 #quote-homepage {
-  border: 5px solid blue;
-
+  // border: 5px solid blue;
+  min-height: 100vh;
   #quote-form-container {
-    border: 5px solid rebeccapurple;
-    margin-top: 10vh;
+    // border: 5px solid rebeccapurple;
+    padding: 100px;
+    // margin-top: 10vh;
     min-height: 800px;
     #quote-words-container {
-      border: 5px solid yellowgreen;
+      // border: 5px solid yellowgreen;
       height: 500px;
       min-width: 300px;
       max-width: 600px;
     }
     form {
-      border: 5px solid red;
+      // border: 5px solid red;
       // height: 500px;
       width: clamp(300px, 600px, 800px);
-      padding: 2.5rem;
+      padding: 4.5rem;
       display: flex;
       flex-direction: column;
     }
