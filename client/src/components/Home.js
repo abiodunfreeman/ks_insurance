@@ -26,12 +26,12 @@ const Home = props => {
       </div>
       {/* <ContactForm handleContactUsFormSubmit={handleContactUsFormSubmit} /> */}
       <div id="hero2">
-        <h3>
-          It's not just <br />
-          About Insurance <br />
+        <h3 className="text-center p-4">
+          "Kelley was so kind and patient with me. <br />
+          She made getting Insurance so easy ! <br />
+          She is the best agent I've ever dealt with!" <br />
           <span id="sec-text">
-            Our Focus is on protecting what matters most: <br />
-            You, your family, and your business.
+            -Andrea Z. <br />
           </span>
         </h3>
       </div>

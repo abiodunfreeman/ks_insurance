@@ -38,13 +38,20 @@
 /* line 34, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
 #hero2 h3 {
   color: white;
-  margin-left: 15vw;
+  margin-right: 15vw;
   font-size: xx-large;
 }
 
-/* line 40, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
+/* line 41, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
 #sec-text {
   font-size: medium;
+}
+
+@media (max-width: 1050px) {
+  /* line 46, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
+  #hero2 h3 {
+    margin-right: 0px;
+  }
 }
 
 /*# sourceMappingURL=home.css.map */
