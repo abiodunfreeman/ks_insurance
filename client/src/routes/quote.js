@@ -53,21 +53,10 @@ export default function Quote() {
       <div className="padtop10"></div>
       <div
         id="quote-form-container"
-        className="flex justify-evenly items-center gap-11
+        className="flex justify-evenly items-center
         "
       >
-        {/* <div id="quote-words-container">
-          <h1>GIVE US MONEY</h1>
-          <p>let me explain why you should</p>
-          <Button variant="outlined" onClick={() => fetchLeads()}>
-            Get Leads in Console
-          </Button>
-        </div> */}
-        <form
-          id="quote-form"
-          className="border-8 border-red-500"
-          onSubmit={e => handleChange(e)}
-        >
+        <div id="x">
           <h3 className="text-center">
             REQUEST FOR AN <br />
             <span className="text-red-500">INSURANCE PLAN QUOTE TODAY</span>
@@ -76,6 +65,14 @@ export default function Quote() {
           <p className="text-center">
             An agent will get back to you within 24 hours or 1 business day
           </p>
+        </div>
+
+        <form
+          id="quote-form"
+          className="border-8 border-red-500"
+          onSubmit={e => handleChange(e)}
+        >
+          <h3 className="text-center">Quote Form</h3>
           <TextField
             required
             fullWidth

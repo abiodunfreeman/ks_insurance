@@ -1,6 +1,27 @@
+import { TextField } from '@mui/material';
 import './styles/css/ContactForm.css';
-const ContactForm = props => {
-  const { handleContactUsFormSubmit } = props;
+import axios from 'axios';
+const ContactForm = () => {
+  const handleContactUsFormSubmit = async e => {
+    e.preventDefault();
+    const contactName = document.querySelector('#contact-form-name').value;
+    const contactEmail = document.querySelector('#contact-form-email').value;
+    const contactMsg = document.querySelector('#contact-form-msg').value;
+    document.querySelector('#contact-form-name').value = '';
+    document.querySelector('#contact-form-email').value = '';
+    document.querySelector('#contact-form-msg').value = '';
+    const contactObj = {
+      name: contactName,
+      email: contactEmail,
+      msg: contactMsg,
+    };
+    const res = await axios.post(
+      `http://localhost:5000/contact-us`,
+      contactObj
+    );
+    console.log(res);
+    console.log('contact form submit');
+  };
   return (
     <div id="ContactForm">
       <h1>Let's Chat</h1>
@@ -14,9 +35,37 @@ const ContactForm = props => {
         for new and exceptional talent to lead the brokerage into the future.
       </p>
       <form onSubmit={e => handleContactUsFormSubmit(e)}>
-        <input type="text" id="contact-form-name" placeholder="Name" />
-        <input type="text" id="contact-form-email" placeholder="Email" />
-        <textarea rows="5" id="contact-form-msg" placeholder="Message..." />
+        <TextField
+          required
+          fullWidth
+          variant="outlined"
+          label="name"
+          margin="normal"
+          name="name"
+          id="contact-form-name"
+          placeholder="Name"
+        />
+        <TextField
+          required
+          fullWidth
+          variant="outlined"
+          label="email"
+          margin="normal"
+          name="email"
+          id="contact-form-email"
+          placeholder="email"
+        />
+        <TextField
+          multiline
+          fullWidth
+          variant="outlined"
+          label="Message"
+          margin="normal"
+          name="message"
+          rows={4}
+          id="contact-form-msg"
+          placeholder="Message"
+        />
         <div className="flex gap-4">
           <label for="contact-form-file">*Optional* </label>
           <input type="file" id="contact-form-file" />

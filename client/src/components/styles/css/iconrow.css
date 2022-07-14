@@ -41,10 +41,9 @@
 /* line 35, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .hidden-info-container {
   display: none;
-  border: 3px solid red;
   width: 250px;
   position: absolute;
-  top: 155px;
+  top: 165px;
 }
 
 /* line 45, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
