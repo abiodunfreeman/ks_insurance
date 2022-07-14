@@ -26,7 +26,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  animation: change 30s infinite ease;
+  animation: change 40s infinite ease;
 }
 
 /* line 30, ../GitHub/ks_insurance/client/src/components/styles/sass/hero.scss */
@@ -60,15 +60,15 @@
 
 @keyframes change {
   0%,
-  23% {
+  25% {
     background-image: url("../../images/logo/cleve-bg.jpg");
   }
-  23%,
+  32%,
   56% {
     background-image: url("../../images/gardening.jpg");
   }
   63%,
-  90% {
+  93% {
     background-image: url("../../images/car.jpg");
   }
   100% {

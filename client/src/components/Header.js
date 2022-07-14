@@ -25,6 +25,17 @@ const Header = () => {
       setMenuOpen(prevState => !prevState);
     }
   }
+  function logoClick() {
+    // stops scrolling of page when menu is open
+    const html = document.querySelector('html');
+    const body = document.querySelector('body');
+    const menuBtn = document.querySelector('.menu-btn');
+    const headerMobileNav = document.querySelector('#mobile-header-nav');
+    menuBtn.classList.remove('open');
+    headerMobileNav.classList.remove('active-nav');
+    html.classList.remove('noScroll');
+    body.classList.remove('noScroll');
+  }
   const handleMenuClick = () => {
     console.log('menu click');
 
@@ -32,7 +43,7 @@ const Header = () => {
   };
   return (
     <header className="">
-      <Link id="logo-link" to="/" onClick={() => checkIfMobileMenuIsOpen()}>
+      <Link id="logo-link" to="/" onClick={() => logoClick()}>
         <h1>KS Insurance Agency</h1>
       </Link>
       <div id="header-nav">

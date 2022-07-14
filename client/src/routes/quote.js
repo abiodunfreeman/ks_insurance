@@ -85,6 +85,7 @@ export default function Quote() {
             name="name"
             id="name"
             placeholder="Name"
+            className=""
             // onChange={e => handleChange(e)}
           />
           <TextField
