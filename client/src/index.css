@@ -6,3 +6,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.padtop10 {
+  padding-top: 10vh;
+  /* border: 8px solid red; */
+}

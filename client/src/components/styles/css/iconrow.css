@@ -5,40 +5,40 @@
   padding: 2.5rem;
 }
 
-/* line 8, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 9, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container #icon-container {
   gap: 8rem;
 }
 
-/* line 13, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 14, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svg {
-  transition-duration: 300ms;
+  transition-duration: 700ms;
   font-size: 50px;
 }
 
-/* line 18, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 19, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svg:hover {
   cursor: pointer;
 }
 
-/* line 21, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 22, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svgContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   border: 1px solid black;
   border-radius: 50%;
-  transition-duration: 300ms;
+  transition-duration: 1000ms;
   height: 150px;
   width: 150px;
 }
 
-/* line 31, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 32, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svgContainer:hover {
   transform: scale(1.1);
 }
 
-/* line 35, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 36, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .hidden-info-container {
   display: none;
   width: 230px;
@@ -46,17 +46,17 @@
   top: 165px;
 }
 
-/* line 45, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 46, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .active {
   display: flex;
 }
 
-/* line 48, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 49, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svg-active {
   color: #dc2626;
 }
 
-/* line 51, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 52, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .spec-container {
   position: relative;
   display: flex;
@@ -65,7 +65,7 @@
 }
 
 @media (max-width: 507px) {
-  /* line 62, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+  /* line 63, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
   #icon-row-container .hidden-info-container {
     width: 90vw;
   }

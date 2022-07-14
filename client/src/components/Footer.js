@@ -2,7 +2,7 @@ import './styles/css/footer.css';
 import { Link } from 'react-router-dom';
 export default function Footer() {
   return (
-    <footer>
+    <footer className="py-8">
       <h3>KS Insurance Agency</h3>
       <div id="footer-info">
         <p>(440) 354-4664</p>
