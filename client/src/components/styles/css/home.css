@@ -50,6 +50,7 @@
 @media (max-width: 1050px) {
   /* line 46, ../GitHub/ks_insurance/client/src/components/styles/sass/home.scss */
   #hero2 h3 {
+    text-align: center;
     margin-right: 0px;
   }
 }

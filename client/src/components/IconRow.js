@@ -10,7 +10,10 @@ export default function IconRow() {
   return (
     <section id="icon-row-container" className="flex-col">
       <h1 className="text-center ">OUR SPECIALTIES</h1>
-      <div className="flex flex-wrap justify-evenly items-center gap-10 text-center pt-5 pb-5">
+      <div
+        id="icon-container"
+        className="flex flex-wrap justify-evenly items-center text-center pt-5 pb-5"
+      >
         <div className="spec-container">
           <div className="svgContainer">
             <i
@@ -38,7 +41,10 @@ export default function IconRow() {
             <h5>BUSINESS</h5>
           </div>
           <div className="hidden-info-container" id="business-info-container">
-            Hidden Section
+            <p>
+              We offer the lowest rates in North Eastern Ohio for business
+              insurance !
+            </p>
           </div>
         </div>
         <div className="spec-container">
@@ -51,7 +57,10 @@ export default function IconRow() {
             <h5>AUTO</h5>
           </div>
           <div className="hidden-info-container" id="auto-info-container">
-            Hidden Section
+            <p>
+              We offer the lowest rates in North Eastern Ohio for auto insurance
+              !
+            </p>
           </div>
         </div>
         <div className="spec-container">
@@ -64,7 +73,10 @@ export default function IconRow() {
             <h5>LIFE</h5>
           </div>
           <div className="hidden-info-container" id="life-info-container">
-            Hidden Section
+            <p>
+              We offer the lowest rates in North Eastern Ohio for life insurance
+              !
+            </p>
           </div>
         </div>
       </div>

@@ -6,17 +6,22 @@
 }
 
 /* line 8, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+#icon-row-container #icon-container {
+  gap: 8rem;
+}
+
+/* line 13, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svg {
   transition-duration: 300ms;
   font-size: 50px;
 }
 
-/* line 13, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 18, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svg:hover {
   cursor: pointer;
 }
 
-/* line 16, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 21, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svgContainer {
   display: flex;
   flex-direction: column;
@@ -28,35 +33,43 @@
   width: 150px;
 }
 
-/* line 26, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 31, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svgContainer:hover {
   transform: scale(1.1);
 }
 
-/* line 30, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 35, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .hidden-info-container {
   display: none;
+  border: 3px solid red;
+  width: 250px;
   position: absolute;
-  top: 180px;
+  top: 155px;
 }
 
-/* line 39, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 45, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .active {
   display: flex;
 }
 
-/* line 42, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 48, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .svg-active {
   color: #dc2626;
 }
 
-/* line 45, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+/* line 51, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
 #icon-row-container .spec-container {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 150px;
+}
+
+@media (max-width: 507px) {
+  /* line 62, ../GitHub/ks_insurance/client/src/components/styles/sass/iconrow.scss */
+  #icon-row-container .hidden-info-container {
+    width: 90vw;
+  }
 }
 
 /*# sourceMappingURL=iconrow.css.map */
