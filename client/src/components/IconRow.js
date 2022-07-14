@@ -2,6 +2,8 @@ import '../components/styles/css/iconrow.css';
 export default function IconRow() {
   const handleHiddenInfoClick = name => {
     const container = document.querySelector(`#${name}-info-container`);
+    const svg = document.querySelector(`#${name}-svg`);
+    svg.classList.toggle('svg-active');
     container.classList.toggle('active');
     console.log(container);
   };
@@ -13,6 +15,7 @@ export default function IconRow() {
           <div className="svgContainer">
             <i
               className="bi bi-house-heart svg"
+              id="home-svg"
               onClick={() => handleHiddenInfoClick('home')}
             ></i>
             <h5>HOME</h5>
@@ -28,6 +31,7 @@ export default function IconRow() {
         <div className="spec-container">
           <div className="svgContainer">
             <i
+              id="business-svg"
               className="bi bi-building  svg"
               onClick={() => handleHiddenInfoClick('business')}
             ></i>
@@ -40,6 +44,7 @@ export default function IconRow() {
         <div className="spec-container">
           <div className="svgContainer">
             <i
+              id="auto-svg"
               className="fa-solid fa-car svg"
               onClick={() => handleHiddenInfoClick('auto')}
             ></i>
@@ -52,6 +57,7 @@ export default function IconRow() {
         <div className="spec-container">
           <div className="svgContainer">
             <i
+              id="life-svg"
               className="bi bi-suit-heart-fill  svg"
               onClick={() => handleHiddenInfoClick('life')}
             ></i>

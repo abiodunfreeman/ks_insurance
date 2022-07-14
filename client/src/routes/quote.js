@@ -56,21 +56,26 @@ export default function Quote() {
         className="flex justify-evenly items-center gap-11
         "
       >
-        <div id="quote-words-container">
+        {/* <div id="quote-words-container">
           <h1>GIVE US MONEY</h1>
           <p>let me explain why you should</p>
           <Button variant="outlined" onClick={() => fetchLeads()}>
             Get Leads in Console
           </Button>
-        </div>
+        </div> */}
         <form
           id="quote-form"
           className="border-8 border-red-500"
           onSubmit={e => handleChange(e)}
         >
-          <h2 className="text-center">
-            Complete this fourm and we'll get back to you ASAP !
-          </h2>
+          <h3 className="text-center">
+            REQUEST FOR AN <br />
+            <span className="text-red-500">INSURANCE PLAN QUOTE TODAY</span>
+          </h3>
+          <div id="quote-line" className="text-center"></div>
+          <p className="text-center">
+            An agent will get back to you within 24 hours or 1 business day
+          </p>
           <TextField
             required
             fullWidth
@@ -131,7 +136,9 @@ export default function Quote() {
             rows={4}
           />
           <FormGroup id="checkbox-group">
-            <h4 className="text-center">check</h4>
+            <h4 className="text-center">
+              What type of Insurance are you Interested in?
+            </h4>
             <div className="flex  justify-evenly flex-wrap">
               <FormControlLabel
                 className="flex"

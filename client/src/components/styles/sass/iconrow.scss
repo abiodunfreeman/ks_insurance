@@ -4,14 +4,13 @@
   // body {
   //   background-color: #eceff1;
   // }
-  padding: 1.5rem;
+  padding: 2.5rem;
   .svg {
     // fill: blue;
     transition-duration: 300ms;
     font-size: 50px;
   }
   .svg:hover {
-    color: #dc2626;
     cursor: pointer;
   }
   .svgContainer {
@@ -34,11 +33,14 @@
     position: absolute;
     top: 180px;
     p {
-      display: block;
+      // display: block;
     }
   }
   .active {
     display: flex;
+  }
+  .svg-active {
+    color: #dc2626;
   }
   .spec-container {
     position: relative;
@@ -46,6 +48,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 }

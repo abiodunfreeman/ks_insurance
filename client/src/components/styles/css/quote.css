@@ -20,7 +20,7 @@
   background-color: snow;
   border-radius: 4px;
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
-  margin: 15px;
+  margin: 45px;
   max-width: 600px;
   padding: 50px;
   display: flex;
@@ -43,12 +43,20 @@
   gap: 2rem;
 }
 
+/* line 41, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+#quote-line {
+  border-top: 1px solid black;
+  width: 20vw;
+  align-self: center;
+  margin: 20px;
+}
+
 @media (max-width: 1050px) {
-  /* line 42, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+  /* line 48, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
   #quote-form-container {
     flex-direction: column-reverse;
   }
-  /* line 46, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+  /* line 52, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
   #phone-zip-container {
     flex-direction: column;
     gap: 0px;
