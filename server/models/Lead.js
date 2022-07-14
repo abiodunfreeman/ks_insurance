@@ -25,6 +25,11 @@ const LeadSchema = mongoose.Schema({
     default: false,
   },
   message: String,
-  insurance_intrest: [String],
+  interest: {
+    home: Boolean,
+    auto: Boolean,
+    life: Boolean,
+    business: Boolean,
+  },
 });
 module.exports = mongoose.model('Lead', LeadSchema);

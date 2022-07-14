@@ -21,13 +21,19 @@
 /* line 14, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #quote-homepage #quote-form-container form {
   border: 5px solid red;
-  height: 500px;
   width: clamp(300px, 600px, 800px);
   padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 24, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+#checkbox-group {
+  display: flex;
 }
 
 @media (max-width: 1050px) {
-  /* line 23, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+  /* line 28, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
   #quote-form-container {
     flex-direction: column-reverse;
   }

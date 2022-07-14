@@ -3,7 +3,7 @@ import './components/styles/css/app.css';
 import Header from './components/Header';
 import Home from './components/Home';
 // import { useState, useEffect } from 'react';
-import axios from 'axios?';
+import axios from 'axios';
 function App() {
   // const [leads, setLeads] = useState([]);
   // const fetchLeads = async () => {

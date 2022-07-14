@@ -4,6 +4,7 @@ const nodemailer = require('nodemailer');
 // @route   POST /quote
 // @access  Public
 exports.postNewLead = async (req, res, next) => {
+  console.log('post route ran');
   try {
     const newLead = await Lead.create(req.body);
     res.status(200).json(newLead);

@@ -13,11 +13,16 @@
     }
     form {
       border: 5px solid red;
-      height: 500px;
+      // height: 500px;
       width: clamp(300px, 600px, 800px);
       padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
     }
   }
+}
+#checkbox-group {
+  display: flex;
 }
 @media (max-width: 1050px) {
   #quote-form-container {
