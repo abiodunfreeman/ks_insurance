@@ -65,7 +65,7 @@ export default function Quote() {
         </div>
         <form
           id="quote-form"
-          className="border-8 "
+          className="border-8 border-red-500"
           onSubmit={e => handleChange(e)}
         >
           <h2 className="text-center">
@@ -131,49 +131,55 @@ export default function Quote() {
             rows={4}
           />
           <FormGroup id="checkbox-group">
-            <FormControlLabel
-              control={
-                <Checkbox
-                  id="home-checkbox"
-                  value="home"
-                  // onChange={e => handleChange(e)}
-                />
-              }
-              label="home"
-            />
-            <FormControlLabel
-              control={
-                <Checkbox
-                  id="auto-checkbox"
-                  value="auto"
-                  // onChange={e => handleChange(e)}
-                />
-              }
-              label="auto"
-              value="auto"
-            />
-            <FormControlLabel
-              control={
-                <Checkbox
-                  id="life-checkbox"
-                  value="life"
-                  // onChange={e => handleChange(e)}
-                />
-              }
-              label="life"
-              value="life"
-            />
-            <FormControlLabel
-              control={
-                <Checkbox
-                  id="business-checkbox"
-                  value="business"
-                  // onChange={e => handleChange(e)}
-                />
-              }
-              label="business"
-              value="business"
-            />
+            <div className="flex  justify-evenly flex-wrap">
+              <FormControlLabel
+                className="flex"
+                control={
+                  <Checkbox
+                    id="home-checkbox"
+                    value="home"
+                    // onChange={e => handleChange(e)}
+                  />
+                }
+                label="home"
+              />
+              <FormControlLabel
+                className="flex"
+                control={
+                  <Checkbox
+                    id="auto-checkbox"
+                    value="auto"
+                    // onChange={e => handleChange(e)}
+                  />
+                }
+                label="auto"
+                value="auto"
+              />
+              <FormControlLabel
+                className="flex"
+                control={
+                  <Checkbox
+                    id="life-checkbox"
+                    value="life"
+                    // onChange={e => handleChange(e)}
+                  />
+                }
+                label="life"
+                value="life"
+              />
+              <FormControlLabel
+                className="flex"
+                control={
+                  <Checkbox
+                    id="business-checkbox"
+                    value="business"
+                    // onChange={e => handleChange(e)}
+                  />
+                }
+                label="business"
+                value="business"
+              />
+            </div>
           </FormGroup>
           <Button fullwidth type="submit" variant="contained">
             SUBMIT

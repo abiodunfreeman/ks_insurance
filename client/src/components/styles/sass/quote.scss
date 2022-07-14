@@ -16,7 +16,10 @@
     form {
       // border: 5px solid red;
       // height: 500px;
-      // margin: 300px;
+      background-color: rgb(255, 250, 250);
+      border-radius: 4px;
+      box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+      margin: 15px;
       max-width: 600px;
       padding: 50px;
       display: flex;

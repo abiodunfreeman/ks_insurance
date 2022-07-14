@@ -17,34 +17,38 @@
 
 /* line 16, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #quote-homepage #quote-form-container form {
+  background-color: snow;
+  border-radius: 4px;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
+  margin: 15px;
   max-width: 600px;
   padding: 50px;
   display: flex;
   flex-direction: column;
 }
 
-/* line 27, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+/* line 30, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 .padtop10 {
   padding-top: 10vh;
 }
 
-/* line 31, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+/* line 34, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #checkbox-group {
   display: flex;
 }
 
-/* line 34, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+/* line 37, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
 #phone-zip-container {
   display: flex;
   gap: 2rem;
 }
 
 @media (max-width: 1050px) {
-  /* line 39, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+  /* line 42, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
   #quote-form-container {
     flex-direction: column-reverse;
   }
-  /* line 43, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
+  /* line 46, ../GitHub/ks_insurance/client/src/components/styles/sass/quote.scss */
   #phone-zip-container {
     flex-direction: column;
     gap: 0px;
