@@ -1,6 +1,5 @@
 /* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/about.scss */
 #about-page-container {
-  background-color: rgba(190, 190, 190, 0.4);
   display: flex;
   flex-direction: column;
 }

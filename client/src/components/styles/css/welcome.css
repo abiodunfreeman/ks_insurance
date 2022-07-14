@@ -1,16 +1,22 @@
 /* line 1, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container {
+  margin: 5vh 5vw 0 5vw;
+  padding-top: 5vh;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  background-color: rgba(190, 190, 190, 0.4);
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
 }
 
-/* line 7, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container .svg {
   font-size: 50px;
   color: #7f1d1d;
 }
 
-/* line 12, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 17, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container .welcome-info-container {
   align-self: center;
   width: 80vw;
@@ -21,7 +27,7 @@
   gap: 5vw;
 }
 
-/* line 22, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 27, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container .info-container-icon {
   display: flex;
   flex-direction: column;
@@ -31,7 +37,7 @@
   gap: 1rem;
 }
 
-/* line 31, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 36, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container .info-container-text {
   display: flex;
   flex-direction: column;
@@ -39,59 +45,59 @@
   padding: 2rem;
 }
 
-/* line 38, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 43, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container .info-container-text h2 {
   font-weight: bold;
   text-align: center;
   font-size: 30px;
 }
 
-/* line 43, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 48, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container .info-container-text p {
   max-width: 600px;
   font-size: 20px;
 }
 
-/* line 49, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 54, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container .info-container-text .right-cont {
   text-align: right;
 }
 
-/* line 52, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 57, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container .info-container-text #left-cont {
   text-align: left;
 }
 
-/* line 57, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 62, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container #f {
   order: 2;
 }
 
-/* line 60, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+/* line 65, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
 #welcome-container #p {
   grid-template-columns: 2fr 1fr;
 }
 
 @media (max-width: 1050px) {
-  /* line 67, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+  /* line 72, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
   #welcome-container .welcome-info-container {
     display: flex;
     flex-direction: column;
   }
-  /* line 68, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+  /* line 73, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
   #welcome-container .welcome-info-container p {
     text-align: center;
   }
-  /* line 74, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+  /* line 79, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
   #welcome-container .info-container-icon {
     flex-direction: column;
     padding: 1rem;
   }
-  /* line 78, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+  /* line 83, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
   #welcome-container .info-container-text {
     padding: 0.5rem;
   }
-  /* line 84, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
+  /* line 89, ../GitHub/ks_insurance/client/src/components/styles/sass/welcome.scss */
   #welcome-container #p {
     flex-direction: column-reverse;
   }
