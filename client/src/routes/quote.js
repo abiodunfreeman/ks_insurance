@@ -131,6 +131,7 @@ export default function Quote() {
             rows={4}
           />
           <FormGroup id="checkbox-group">
+            <h4 className="text-center">check</h4>
             <div className="flex  justify-evenly flex-wrap">
               <FormControlLabel
                 className="flex"
@@ -181,7 +182,7 @@ export default function Quote() {
               />
             </div>
           </FormGroup>
-          <Button fullwidth type="submit" variant="contained">
+          <Button type="submit" variant="contained">
             SUBMIT
           </Button>
         </form>
