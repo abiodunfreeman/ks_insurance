@@ -1,19 +1,20 @@
 #quote-homepage {
-  border: 5px solid blue;
-  // min-height: 100vh;
+  // border: 5px solid blue;
+  // background-color: aqua;
+  min-height: 100vh;
   #quote-form-container {
-    border: 5px solid rebeccapurple;
-    padding-top: 4vh;
-    margin-top: 10vh;
-    min-height: 800px;
+    // border: 5px solid rebeccapurple;
+    // padding-top: 10vh;
+    // margin-top: 10vh;
+    min-height: 80vh;
     #quote-words-container {
-      border: 5px solid yellowgreen;
+      // border: 5px solid yellowgreen;
       height: 500px;
       min-width: 300px;
       max-width: 600px;
     }
     form {
-      border: 5px solid red;
+      // border: 5px solid red;
       // height: 500px;
       // margin: 300px;
       max-width: 600px;
@@ -23,11 +24,16 @@
     }
   }
 }
+.padtop10 {
+  padding-top: 10vh;
+  // border: 10px solid brown;
+}
 #checkbox-group {
   display: flex;
 }
 #phone-zip-container {
   display: flex;
+  gap: 2rem;
 }
 @media (max-width: 1050px) {
   #quote-form-container {
@@ -36,5 +42,6 @@
   }
   #phone-zip-container {
     flex-direction: column;
+    gap: 0px;
   }
 }

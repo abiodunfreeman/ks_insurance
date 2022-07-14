@@ -50,6 +50,7 @@ export default function Quote() {
   return (
     <section id="quote-homepage" className="flex-col">
       <Header />
+      <div className="padtop10"></div>
       <div
         id="quote-form-container"
         className="flex justify-evenly items-center gap-11
@@ -92,7 +93,7 @@ export default function Quote() {
             // onChange={e => handleChange(e)}
             placeholder="email"
           />
-          <div className=" gap-8" id="phone-zip-container">
+          <div className="" id="phone-zip-container">
             <TextField
               required
               fullWidth
