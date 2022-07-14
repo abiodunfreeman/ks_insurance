@@ -48,7 +48,7 @@ export default function Quote() {
     // console.log(e);
   };
   return (
-    <section id="quote-homepage" className="h-screen flex-col">
+    <section id="quote-homepage" className="flex-col">
       <Header />
       <div
         id="quote-form-container"
@@ -92,7 +92,7 @@ export default function Quote() {
             // onChange={e => handleChange(e)}
             placeholder="email"
           />
-          <div className="flex gap-8">
+          <div className=" gap-8" id="phone-zip-container">
             <TextField
               required
               fullWidth

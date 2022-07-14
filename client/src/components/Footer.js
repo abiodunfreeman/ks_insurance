@@ -10,7 +10,7 @@ export default function Footer() {
         <p>78 Mentor Ave Painesville, OH 44077</p>
         <p>ks.insur.agency@gmail.com</p>
         <div>
-          <Link to="/login">login</Link>
+          <Link to="/signin">login</Link>
         </div>
       </div>
     </footer>

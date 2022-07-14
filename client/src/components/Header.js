@@ -32,7 +32,7 @@ const Header = () => {
   };
   return (
     <header className="">
-      <Link id="logo-link" to="/">
+      <Link id="logo-link" to="/" onClick={() => checkIfMobileMenuIsOpen()}>
         <h1>KS Insurance Agency</h1>
       </Link>
       <div id="header-nav">
@@ -78,7 +78,11 @@ const Header = () => {
           >
             Contact Us
           </Link>
-          <Link className="btn btn-primary" to="/quote">
+          <Link
+            className="btn btn-primary"
+            to="/quote"
+            onClick={() => checkIfMobileMenuIsOpen()}
+          >
             Get a Quote
           </Link>
         </div>

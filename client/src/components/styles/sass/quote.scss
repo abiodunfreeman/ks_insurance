@@ -1,22 +1,23 @@
 #quote-homepage {
-  // border: 5px solid blue;
-  min-height: 100vh;
+  border: 5px solid blue;
+  // min-height: 100vh;
   #quote-form-container {
-    // border: 5px solid rebeccapurple;
-    padding: 100px;
-    // margin-top: 10vh;
+    border: 5px solid rebeccapurple;
+    padding-top: 4vh;
+    margin-top: 10vh;
     min-height: 800px;
     #quote-words-container {
-      // border: 5px solid yellowgreen;
+      border: 5px solid yellowgreen;
       height: 500px;
       min-width: 300px;
       max-width: 600px;
     }
     form {
-      // border: 5px solid red;
+      border: 5px solid red;
       // height: 500px;
-      width: clamp(300px, 600px, 800px);
-      padding: 4.5rem;
+      // margin: 300px;
+      max-width: 600px;
+      padding: 50px;
       display: flex;
       flex-direction: column;
     }
@@ -25,9 +26,15 @@
 #checkbox-group {
   display: flex;
 }
+#phone-zip-container {
+  display: flex;
+}
 @media (max-width: 1050px) {
   #quote-form-container {
     // display: flex;
     flex-direction: column-reverse;
+  }
+  #phone-zip-container {
+    flex-direction: column;
   }
 }
