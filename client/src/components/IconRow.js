@@ -17,7 +17,7 @@ export default function IconRow() {
         <div className="spec-container">
           <div className="svgContainer">
             <i
-              className="bi bi-house-heart svg"
+              className="fa-solid fa-house-crack svg mb-3"
               id="home-svg"
               onClick={() => handleHiddenInfoClick('home')}
             ></i>
@@ -35,7 +35,7 @@ export default function IconRow() {
           <div className="svgContainer">
             <i
               id="business-svg"
-              className="bi bi-building  svg"
+              className="fa-solid fa-building  svg mb-3"
               onClick={() => handleHiddenInfoClick('business')}
             ></i>
             <h5>BUSINESS</h5>
@@ -51,7 +51,7 @@ export default function IconRow() {
           <div className="svgContainer">
             <i
               id="auto-svg"
-              className="fa-solid fa-car svg"
+              className="fa-solid fa-car svg mb-3"
               onClick={() => handleHiddenInfoClick('auto')}
             ></i>
             <h5>AUTO</h5>
@@ -67,7 +67,7 @@ export default function IconRow() {
           <div className="svgContainer">
             <i
               id="life-svg"
-              className="bi bi-suit-heart-fill  svg"
+              className="fa-solid fa-heart  mb-3 svg"
               onClick={() => handleHiddenInfoClick('life')}
             ></i>
             <h5>LIFE</h5>
@@ -76,6 +76,22 @@ export default function IconRow() {
             <p>
               We offer the lowest rates in North Eastern Ohio for life insurance
               !
+            </p>
+          </div>
+        </div>
+        <div className="spec-container">
+          <div className="svgContainer">
+            <i
+              id="rent-svg"
+              onClick={() => handleHiddenInfoClick('rent')}
+              className="fa-solid fa-couch svg mb-3"
+            ></i>
+            <h5>RENTERS</h5>
+          </div>
+          <div className="hidden-info-container" id="rent-info-container">
+            <p>
+              We offer the lowest rates in North Eastern Ohio for Renters
+              insurance !
             </p>
           </div>
         </div>
