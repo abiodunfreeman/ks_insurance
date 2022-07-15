@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "leads.css",
+	"sources": [
+		"../sass/leads.scss"
+	],
+	"sourcesContent": [
+		"#leads-container {\r\n  border: 4px solid blue;\r\n}\r\n.lead-card {\r\n  width: 350px;\r\n  min-height: 300px;\r\n  border: 3px solid blue;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,gBAAgB,CAAC;EACf,MAAM,EAAE,cAAc;CACvB;;;AACD,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,cAAc;CACvB"
+}
