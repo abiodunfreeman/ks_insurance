@@ -2,6 +2,8 @@ const express = require('express');
 const colors = require('colors');
 const dotenv = require('dotenv');
 const cors = require('cors');
+const compression = require('compression');
+const helmet = require('helmet');
 const connectDB = require('./config/db');
 // SERVER SIDE TODO
 /*
@@ -26,6 +28,10 @@ const app = express();
 // Load env variables
 dotenv.config({ path: './config/config.env' });
 
+//Compress all routes
+app.use(compression());
+
+app.use(helmet());
 // serve static files in /public
 app.use(express.static(__dirname + '/public'));
 
