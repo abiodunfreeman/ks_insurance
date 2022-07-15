@@ -5,8 +5,8 @@
 		"../sass/leads.scss"
 	],
 	"sourcesContent": [
-		"#leads-container {\r\n  border: 4px solid blue;\r\n}\r\n.lead-card {\r\n  width: 350px;\r\n  min-height: 300px;\r\n  border: 3px solid blue;\r\n}\r\n"
+		"#leads-container {\r\n  //   border: 4px solid blue;\r\n}\r\n.lead-card {\r\n  width: 450px;\r\n  //   height: 450px;\r\n  margin: 20px;\r\n  //   border: 3px solid blue;\r\n  background-color: gold;\r\n  padding: 1.5rem;\r\n  p {\r\n    font-size: 20px;\r\n  }\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,gBAAgB,CAAC;EACf,MAAM,EAAE,cAAc;CACvB;;;AACD,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,cAAc;CACvB"
+	"mappings": ";AAGA,AAAA,UAAU,CAAC;EACT,KAAK,EAAE,KAAK;EAEZ,MAAM,EAAE,IAAI;EAEZ,gBAAgB,EAAE,IAAI;EACtB,OAAO,EAAE,MAAM;CAIhB;;;AAVD,AAOE,UAPQ,CAOR,CAAC,CAAC;EACA,SAAS,EAAE,IAAI;CAChB"
 }

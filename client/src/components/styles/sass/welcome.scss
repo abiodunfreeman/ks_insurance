@@ -1,9 +1,9 @@
 #welcome-container {
   //   border: 9px solid rebeccapurple;
-  margin: 5vh 5vw 0 5vw;
+  // margin: 5vh 5vw 0 5vw;
   padding-top: 5vh;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
+  // border-top-left-radius: 40px;
+  // border-top-right-radius: 40px;
   background-color: rgba(190, 190, 190, 0.4);
   box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -65,6 +65,11 @@
   #p {
     grid-template-columns: 2fr 1fr;
   }
+}
+.line {
+  align-self: center;
+  width: 80vw;
+  border-top: 2px solid black;
 }
 @media (max-width: 1050px) {
   #welcome-container {

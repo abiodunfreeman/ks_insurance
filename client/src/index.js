@@ -9,6 +9,7 @@ import Login from './routes/login';
 import ContactUs from './routes/contact-us';
 import SignInSide from './routes/SignInSide';
 import Leads from './routes/leads';
+import Mom from './routes/Mom';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -21,6 +22,7 @@ root.render(
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/signin" element={<SignInSide />} />
         <Route path="/leads" element={<Leads />} />
+        <Route path="/mom" element={<Mom />} />
       </Routes>
     </React.StrictMode>
   </BrowserRouter>

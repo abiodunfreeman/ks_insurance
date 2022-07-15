@@ -30,6 +30,7 @@ export default function Welcome() {
           </p>
         </div>
       </div>
+      <div className="line"></div>
       <div className="welcome-info-container " id="p">
         <div className="info-container-icon" id="f">
           <i class="fa-solid fa-magnifying-glass svg"></i>
@@ -52,6 +53,7 @@ export default function Welcome() {
           </p>
         </div>
       </div>
+      <div className="line"></div>
       <div className="welcome-info-container">
         <div className="info-container-icon">
           <i class="fa-solid fa-envelope-open svg"></i>
