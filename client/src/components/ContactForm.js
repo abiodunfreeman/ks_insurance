@@ -16,7 +16,7 @@ const ContactForm = () => {
       msg: contactMsg,
     };
     const res = await axios.post(
-      `http://localhost:5000/contact-us`,
+      `https://fringuante-moliere-43929.herokuapp.com/contact-us`,
       contactObj
     );
     console.log(res);

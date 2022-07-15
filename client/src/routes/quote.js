@@ -41,7 +41,10 @@ export default function Quote() {
       },
     };
     console.log(quoteObj);
-    const res = await axios.post(`http://localhost:5000/lead/new`, quoteObj);
+    const res = await axios.post(
+      `https://fringuante-moliere-43929.herokuapp.com/lead/new`,
+      quoteObj
+    );
     const quoteForm = document.querySelector('#quote-form');
     quoteForm.reset();
 
