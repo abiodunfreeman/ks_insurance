@@ -8,10 +8,10 @@ Sales representatives can login and view leads that are stored in a database. Al
 
 ## How It's Made:
 
-**Tech used:** React, Express, MongoDB, SASS
+**Tech used:** React, Express, MongoDB, SASS, MUI
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write _something_. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+Built the server first using express and mongoose for a mongoDB database. I then built the front end using React and MUI Components to speed things along while keeping a clean look.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those _whoa this is awesome_ or _fuck yeah I did it!_ moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I learned about advanced css animation to get a smooth, scrolling hero image. I also learned the importance of really thinking and writing out exactly what you expect from an application. This not only speeds up the proccess but makes sure you get what you want in the end.
