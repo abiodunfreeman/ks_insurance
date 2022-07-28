@@ -1,4 +1,4 @@
-#Stewart Insurance Agency
+##Stewart Insurance Agency
 
 Sales representatives can login and view leads that are stored in a database. All form submissions are stored in a database and emailed to the agency owner. Admins can assign leads to agents, mark whether or not they have been contacted yet and delete ones that no longer wish to be contacted
 
